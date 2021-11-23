@@ -6,16 +6,17 @@ body{margin:0; padding:0; font-family:'Franklin Gothic Medium', 'Arial Narrow', 
 .banner > .content > h1 {margin:0; padding:0; font-size:4.5em;  text-transform: uppercase; color:white;}
 .banner > .content > p {margin:0; padding:0;  color:black;}
 
+#whats{width:100%; height:650px; background-color:green;}
+.container{background-color:#1a1a1a; width:1200px; height:650px;  text-align: center; align-items: center; margin:0 auto;}
+.container > .page1 {align-items: center;}
+.container > .page1 > h1 {padding:20px; color:white;}
+.container > .page1 > p {padding:20px;color:white;}
+.container > .page1 > article {float:left; margin:10px 10px; padding:3px; width:365px; height:330px; background-color: yellow; }
+.container > .page1 > article > img {width:100%; height:50%;}
+.container > .page1 > article > h1 {text-align: left; color:black;}
+.container > .page1 > article > p {text-align:center; color:black;}
 
-#container{background-color:#1a1a1a;width:100%; height:650px;  text-align: center; align-items: center;}
-#container > .page1 {align-items: center;}
-#container > .page1 > h1 {color:white;}
-#container > .page1 > p {padding:20px;color:white;}
-#container > .page1 > article {float:left; margin:10px 10px; padding:3px; width:365px; height:330px; background-color: yellow; }
-#container > .page1 > article > img {width:100%; height:50%;}
-#container > .page1 > article > h1 {text-align: left; color:black;}
-#container > .page1 > article > p {text-align:center; color:black;}
-
-.page2{width:100%; height:850px;text-align:center; background-color: black; color:white; }
+#price{width:100%; height:850px; background-color:yellow;}
+.container2{margin:0 auto; width:1200px; height:850px;text-align:center; background-color: black; color:white; }
 
 hr{width:70px; text-align: center;}

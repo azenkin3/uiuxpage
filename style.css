@@ -1,4 +1,15 @@
-section{width:100vw; height:60vh; background-color: aqua;}
-video{width:100vw; height:80%;}
-.container2{width:100vw; height:70vh; overflow:hidden; display:flex; align-items: center; justify-content: center; background-color: cadetblue;}
-.container2 > #vid2 {position:absolute; object-fit: cover; } 
+body{margin:0; padding:0; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.navbar{height:80px; width:100%; background-color:red; z-index: 1;}
+.banner{width:100%; height:100vh; overflow: hidden; display: flex; justify-content: center; align-items: center;}
+.banner > video {position:absolute; object-fit: cover; width:100%; height:100%; overflow: hidden;}
+.banner > .content {position: relative; z-index: 1; max-width: 1100px; margin:0 auto; text-align: center;}
+.banner > .content > h1 {margin:0; padding:0; font-size:4.5em;  text-transform: uppercase; color:white;}
+.banner > .content > p {margin:0; padding:0;  color:black;}
+
+
+.page1{width:100%; height:650px; text-align:center;  }
+
+article {float:left; margin:10px 10px; padding:3px; width:365px; height:165px; background-color: yellow;}
+.page2{width:100%; height:850px;text-align:center; background-color: black; color:white; }
+
+

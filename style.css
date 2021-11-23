@@ -11,10 +11,10 @@ body{margin:0; padding:0; font-family:'Franklin Gothic Medium', 'Arial Narrow', 
 .container > .page1 {align-items: center;}
 .container > .page1 > h1 {padding:20px; color:white;}
 .container > .page1 > p {padding:20px;color:white;}
-.container > .page1 > article {float:left; margin:10px 10px; padding:3px; width:365px; height:330px; background-color: yellow; }
+.container > .page1 > article {float:left; margin:10px 10px; padding:3px; width:365px; height:330px; }
 .container > .page1 > article > img {width:100%; height:50%;}
-.container > .page1 > article > h1 {text-align: left; color:black;}
-.container > .page1 > article > p {text-align:center; color:black;}
+.container > .page1 > article > h1 {text-align: left; color:white;}
+.container > .page1 > article > p {text-align:center; color:white;}
 
 #price{width:100%; height:850px; background-color:yellow;}
 .container2{margin:0 auto; width:1200px; height:850px;text-align:center; background-color: black; color:white; }
@@ -29,3 +29,13 @@ hr{width:70px; text-align: center;}
 
 #service{width:100%; height:850px; background-color: khaki;}
 .container4{margin:0 auto; width:1200px; height:850px; background-color: lightblue;}
+
+#choose{width:100%; height:500px; background-color: #1a1a1a; overflow:hidden;}
+.container5{margin:0 auto; width:1200px; height:500px; background-color: white;}
+#choose > video { object-fit: cover; width:100%; height:100%; overflow: hidden;}
+
+#review{width:100%; height:750px; background-color: gold; }
+.container6{margin:0 auto; width:1200px; height:750px; background-color: black;}
+
+#footer{width:100%; height:270px; background-color:red;}
+.container7{margin:0 auto; width:1200px; height:270px; background-color:sandybrown;}

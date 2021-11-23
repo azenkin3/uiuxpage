@@ -1,0 +1,4 @@
+section{width:100vw; height:60vh; background-color: aqua;}
+video{width:100vw; height:80%;}
+.container2{width:100vw; height:70vh; overflow:hidden; display:flex; align-items: center; justify-content: center; background-color: cadetblue;}
+.container2 > #vid2 {position:absolute; object-fit: cover; } 

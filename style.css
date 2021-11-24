@@ -7,10 +7,11 @@
 body{margin:0; padding:0; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  list-style:none;}
 .navbar{height:80px; width:100%; background-color:#1a1a1a; z-index: 1; justify-content: center; text-align: center; }
 #logo{float:left; width:150px; height:40px;}
-.container10{padding-top:20px; margin:0 auto; width:1200px; height:40x; position:fixed; left:50%; transform:translate(-50%,0); background-color:#1a1a1a; }
+.container10{padding-top:20px; margin:0 auto; width:1200px; height:40x; position:fixed; left:50%; transform:translate(-50%,0); background-color:#1a1a1a; z-index:10;}
 
 .navbar ul {display:flex; justify-content: space-evenly; padding-left:150px; }
 .navbar ul li a{color:white; text-decoration-line: none; }
+.navbar ul li a:hover{color:#2079ab;}
 
 
 .banner{width:100%; height:100vh; overflow: hidden; display: flex; justify-content: center; align-items: center; margin:-20px 0 0 0;}
@@ -19,8 +20,8 @@ body{margin:0; padding:0; font-family:'Franklin Gothic Medium', 'Arial Narrow', 
 .banner > .content > h1 {margin:0; padding:0; font-size:4.5em;  text-transform: uppercase; color:white;}
 .banner > .content > p {margin:0; padding:0;  color:black;}
 
-#whats{width:100%; height:650px; background-color:#1a1a1a;}
-.container{background-color:#1a1a1a; width:1200px; height:650px;  text-align: center; align-items: center; margin:0 auto;}
+#whats{width:100%; height:520px; background-color:#1a1a1a;}
+.container{background-color:#1a1a1a; width:1200px; height:520px;  text-align: center; align-items: center; margin:0 auto;}
 .container > .page1 {align-items: center;}
 .container > .page1 > .wih {padding:20px; color:white;}
 .container > .page1 > p {padding:20px;color:white;}
@@ -41,23 +42,18 @@ table{width:1200px; height:600px; color:white; z-index: 6; margin:0 auto;}
 td th{border:1px solid lightsalmon; color:white; z-index: 6;}
 
 
-#plan{width:100%; height:600px; background-color: grey;}
-.container3{margin:0 auto; width:1200px; height:600px; background-color: indigo; text-align: center; }
-.container3 > .page3 {align-items: center; z-index: 6;}
-.container3 > .page3 > h1 {padding:20px; color:white; z-index: 6;}
-.container3 > .page3 > p {padding:20px;color:white; z-index: 6;}
 
 
-#service{width:100%; height:850px; background-color: khaki;}
-.container4{margin:0 auto; width:1200px; height:850px; background-color: lightblue; text-align: center;}
+#service{width:100%; height:700px; background-color: #2079ab;}
+.container4{margin:0 auto; width:1200px; height:700px; background-color: #2079ab; text-align: center;}
 .container4 > .page4 {align-items: center; z-index: 6;}
 .container4 > .page4 > h1 {padding:20px; color:white; z-index: 6;}
 .container4 > .page4 > p {padding:20px;color:white; z-index: 6;}
 
-#choose{width:100%; height:500px; background-color: #1a1a1a; overflow:hidden;}
-.container5{margin:0 auto; width:1200px; height:500px; background-color: white; text-align: center;}
+#choose{width:100%; height:800px; background-color: #1a1a1a; overflow:hidden;}
+.container5{margin:0 auto; width:1200px; height:800px; background-color:#1a1a1a; text-align: center;}
 .container5 > .page5 {align-items: center; z-index: 6;}
-.container5 > .page5 > h1 {padding:20px; color:white; z-index: 6;}
+.container5 > .page5 > .chh {padding:20px; color:white; z-index: 6; }
 .container5 > .page5 > p {padding:20px;color:white; z-index: 6;}
 #choose > video { object-fit: cover; width:100%; height:100%; overflow: hidden; z-index: 1;}
 

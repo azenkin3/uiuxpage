@@ -29,11 +29,15 @@ body{margin:0; padding:0; font-family:'Franklin Gothic Medium', 'Arial Narrow', 
 .container > .page1 > article > h1 {text-align: left; color:white;}
 .container > .page1 > article > p {text-align:center; color:white;}
 
-#price{width:100%; height:850px; background-color:yellow;}
-.container2{margin:0 auto; width:1200px; height:850px;text-align:center; background-color: black; color:white; }
+#price{width:100%; height:850px; color:white; background-color:#1a1a1a;}
+.container2{background-color:#1a1a1a; width:1200px; height:850px;  text-align: center; align-items: center; margin:0 auto; z-index: 6;}
+.container2 > .page2 {align-items: center; z-index: 6;}
+.container2 > .page2 > h1 {padding:20px; color:white; z-index: 6;}
+.container2 > .page2 > p {padding:20px;color:white; z-index: 6;}
 
 hr{width:70px; margin:0 auto;}
-
+table{width:1200px; height:600px; color:white; z-index: 6;}
+td th{border:1px solid lightsalmon; color:white; z-index: 6;}
 
 
 #plan{width:100%; height:600px; background-color: grey;}

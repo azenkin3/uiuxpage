@@ -36,7 +36,7 @@ body{margin:0; padding:0; font-family:'Franklin Gothic Medium', 'Arial Narrow', 
 .container2 > .page2 > p {padding:20px;color:white; z-index: 6;}
 
 hr{width:70px; margin:0 auto;}
-table{width:1200px; height:600px; color:white; z-index: 6;}
+table{width:1200px; height:600px; color:white; z-index: 6; margin:0 auto;}
 td th{border:1px solid lightsalmon; color:white; z-index: 6;}
 
 

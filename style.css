@@ -22,7 +22,7 @@ body{margin:0; padding:0; font-family:'Franklin Gothic Medium', 'Arial Narrow', 
 #whats{width:100%; height:650px; background-color:#1a1a1a;}
 .container{background-color:#1a1a1a; width:1200px; height:650px;  text-align: center; align-items: center; margin:0 auto;}
 .container > .page1 {align-items: center;}
-.container > .page1 > h1 {padding:20px; color:white;}
+.container > .page1 > .wih {padding:20px; color:white;}
 .container > .page1 > p {padding:20px;color:white;}
 .container > .page1 > article {float:left; margin:10px 10px; padding:3px; width:365px; height:330px; }
 .container > .page1 > article > img {width:100%; height:50%;}
@@ -35,24 +35,37 @@ body{margin:0; padding:0; font-family:'Franklin Gothic Medium', 'Arial Narrow', 
 .container2 > .page2 > h1 {padding:20px; color:white; z-index: 6;}
 .container2 > .page2 > p {padding:20px;color:white; z-index: 6;}
 
-hr{width:70px; margin:0 auto;}
+#line{width:70px; margin:0 auto;}
+#bottom{width:100%; margin:0 auto; color:white;}
 table{width:1200px; height:600px; color:white; z-index: 6; margin:0 auto;}
 td th{border:1px solid lightsalmon; color:white; z-index: 6;}
 
 
 #plan{width:100%; height:600px; background-color: grey;}
-.container3{margin:0 auto; width:1200px; height:600px; background-color: indigo; }
+.container3{margin:0 auto; width:1200px; height:600px; background-color: indigo; text-align: center; }
+.container3 > .page3 {align-items: center; z-index: 6;}
+.container3 > .page3 > h1 {padding:20px; color:white; z-index: 6;}
+.container3 > .page3 > p {padding:20px;color:white; z-index: 6;}
 
 
 #service{width:100%; height:850px; background-color: khaki;}
-.container4{margin:0 auto; width:1200px; height:850px; background-color: lightblue;}
+.container4{margin:0 auto; width:1200px; height:850px; background-color: lightblue; text-align: center;}
+.container4 > .page4 {align-items: center; z-index: 6;}
+.container4 > .page4 > h1 {padding:20px; color:white; z-index: 6;}
+.container4 > .page4 > p {padding:20px;color:white; z-index: 6;}
 
 #choose{width:100%; height:500px; background-color: #1a1a1a; overflow:hidden;}
-.container5{margin:0 auto; width:1200px; height:500px; background-color: white;}
-#choose > video { object-fit: cover; width:100%; height:100%; overflow: hidden;}
+.container5{margin:0 auto; width:1200px; height:500px; background-color: white; text-align: center;}
+.container5 > .page5 {align-items: center; z-index: 6;}
+.container5 > .page5 > h1 {padding:20px; color:white; z-index: 6;}
+.container5 > .page5 > p {padding:20px;color:white; z-index: 6;}
+#choose > video { object-fit: cover; width:100%; height:100%; overflow: hidden; z-index: 1;}
 
 #review{width:100%; height:750px; background-color: gold; }
-.container6{margin:0 auto; width:1200px; height:750px; background-color: black;}
+.container6{margin:0 auto; width:1200px; height:750px; background-color: black; text-align: center;}
+.container6 > .page6 {align-items: center; z-index: 6;}
+.container6 > .page6 > h1 {padding:20px; color:white; z-index: 6;}
+.container6 > .page6 > p {padding:20px;color:white; z-index: 6;}
 
 #footer{width:100%; height:270px; background-color:red;}
 .container7{margin:0 auto; width:1200px; height:270px; background-color:sandybrown;}

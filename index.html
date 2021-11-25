@@ -20,10 +20,15 @@
         .text1 {transform:translateX(-500px); transition: all 3s; opacity: 0;}
         .text2 {transform:translateX(300px); transition: all 3s; opacity: 0;}
         .text3 {transform:translateY(100px); transition: all 3s; opacity: 0;}
-
         .photo1 {transform:translateX(-500px); transition: all 3s; opacity: 0;}
         .photo2 {transform:translateX(300px); transition: all 3s; opacity: 0;}
         .photo3 {transform:translateY(100px); transition: all 3s; opacity: 0;}
+        #bottom2 {transform:translateY(200px); transition: all 3s; opacity: 0;}
+        .text4 {transform:translateX(300px); transition: all 3s; opacity: 0;}
+        .text5 {transform:translateX(300px); transition: all 3s; opacity: 0;}
+        .photo4 {transform:translateX(-500px); transition: all 3s; opacity: 0;}
+        .photo5 {transform:translateX(-500px); transition: all 3s; opacity: 0;}
+        #bottom3 {transform:translateY(200px); transition: all 3s; opacity: 0;}
 
      
     </style>
@@ -254,8 +259,9 @@
                                 sed quia consequuntur magni dolores eos qui ratione</p>
                         </div>
                     </a>
+                  
                 </div>
-
+                <hr id="bottom2">
             
             </div>
         </div>
@@ -338,6 +344,7 @@
                                 
                         </div>
                     </a>
+                   
                 </div>
 
                
@@ -346,6 +353,7 @@
         </div>
     </div>
 </div>
+
 
     <div id="review">
 
@@ -360,36 +368,36 @@
 
                 <div id="wrap4">
                     <a href="#" class="box4">
-                        <div class="photo4" style="background-image: url(.png);"></div>
+                        <div class="photo4" style="background-image: url(img/team_pic_1.jpg);"></div>
                         <div class="text4">
                             <h3 id="star" style="color:#2079ab";>★★★★★</h3>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
                                 totam rem.</p>  
-                                <h3>Website Development</h3>                   
+                                <h3>Dusan Tadic</h3>                   
                              </div>
                     </a>
 
 
                 
                     <a href="#" class="box4">
-                        <div class="photo4" style="background-image: url(img/phone.png);"></div>
+                        <div class="photo4" style="background-image: url(img/team_pic_2.jpg);"></div>
                         <div class="text4">
                             <h3 id="star" style="color:#2079ab";>★★★★☆</h3>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
                                 totam rem.</p>
-                                <h3>Mobile Application</h3>
+                                <h3>Anne Hathaway</h3>
                         </div>
                     </a>
                 </div>
 
                 <div id="wrap5">
                     <a href="#" class="box5">
-                        <div class="photo5" style="background-image: url(img/tv.png);"></div>
+                        <div class="photo5" style="background-image: url(img/team_pic_3.jpg);"></div>
                         <div class="text5">
                             <h3 id="star" style="color:#2079ab";>★★★★☆</h3>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
                                 totam rem.</p>    
-                                <h3>Website Development</h3>                 
+                                <h3>Scarlett Johansson</h3>                 
                              </div>
                     </a>
                 
@@ -397,16 +405,17 @@
                 
                     <a href="#" class="box5">
                        
-                        <div class="photo5" style="background-image: url(img/phone.png);"></div>
+                        <div class="photo5" style="background-image: url(img/team_pic_4.jpg);"></div>
                         <div class="text5">
                             <h3 id="star" style="color:#2079ab";>★★★★★</h3>
                             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
                                 totam rem.</p>
-                                <h3>Mobile Application</h3>
+                                <h3>Matt Williams</h3>
                                 </div>
                        
                     </a>
                 </div>
+                <hr id="bottom3">
             </div>
             
         
@@ -416,6 +425,17 @@
     <div id="footer">
 
         <div class="container7">
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook"></i>
+                    <a href="#"><i class="fab fa-twitter"></i>
+                   
+                        <a href="#"><i class="fab fa-skype"></i>
+                            <a href="#"><i class="fab fa-google-plus-g"></i>
+
+                     <h4>@copyright-onehost by Designesia</h4>
+
+                </a>
+            </div>
             
         </div>
     </div>
@@ -461,8 +481,25 @@
         if (ws > 2550) {
             $('.photo3').css("transform","translateY(0px)").css("opacity","1")
         }
+        if (ws > 1600) {
+            $('#bottom2').css("transform","translateY(0px)").css("opacity","1")
+        }
+        if (ws > 2600) {
+            $('.text4').css("transform","translateX(0px)").css("opacity","1")
+        }
 
-        
+        if (ws > 2700) {
+            $('.text5').css("transform","translateX(0px)").css("opacity","1")
+        }
+        if (ws > 2600) {
+            $('.photo4').css("transform","translateY(0px)").css("opacity","1")
+        }
+        if (ws > 2700) {
+            $('.photo5').css("transform","translateY(0px)").css("opacity","1")
+        }
+        if (ws > 2900) {
+            $('#bottom3').css("transform","translateY(0px)").css("opacity","1")
+        }
         
     });
 

@@ -20,27 +20,25 @@ body{margin:0; padding:0; }
 .banner > .content > h1 {margin:0; padding:0; font-size:4.5em;  text-transform: uppercase; color:white;}
 .banner > .content > p {margin:0; padding:0;  color:black;}
 
-#whats{width:100%; height:520px; background-color:#1a1a1a;}
-.container{background-color:#1a1a1a; width:1200px; height:520px;  text-align: center; align-items: center; margin:0 auto;}
+#whats{width:100%; height:550px; background-color:#1a1a1a;}
+.container{background-color:#1a1a1a; width:1200px; height:550px;  text-align: center; align-items: center; margin:0 auto;}
 .container > .page1 {align-items: center;}
 .container > .page1 > .wih {padding:20px; color:white;}
 .container > .page1 > p {padding:20px;color:white;}
-.container > .page1 > article {float:left; margin:10px 10px; padding:3px; width:365px; height:330px; }
-.container > .page1 > article > img {width:100%; height:50%;}
-.container > .page1 > article > h1 {text-align: left; color:white;}
-.container > .page1 > article > p {text-align:center; color:white;}
+.ingo > article {float:left; margin:10px 10px; padding:3px; width:365px; height:330px; }
+.ingo > article > img {width:100%; height:50%;}
+.ingo > article > h1 {text-align: center; color:white;}
+.ingo > article > p {text-align:center; color:white;}
 
-#price{width:100%; height:850px; color:white; background-color:#1a1a1a;}
-.container2{background-color:#1a1a1a; width:1200px; height:850px;  text-align: center; align-items: center; margin:0 auto; z-index: 6;}
+#price{width:100%; height:900px; color:white; background-color:#1f1f1f;}
+.container2{background-color:#1f1f1f; width:1200px; height:900px;  text-align: center; align-items: center; margin:0 auto; z-index: 6;}
 .container2 > .page2 {align-items: center; z-index: 6;}
 .container2 > .page2 > h1 {padding:20px; color:white; z-index: 6;}
 .container2 > .page2 > p {padding:20px;color:white; z-index: 6;}
 
 #line{width:70px; margin:0 auto;}
-#bottom{width:100%; margin:0 auto; color:white;}
-#bottom2{width:100%; margin:0 auto; color:white;}
-#bottom3{width:100%; margin:0 auto; color:white;}
-table{width:1200px; height:600px; color:white; z-index: 6; margin:0 auto;}
+
+table{float:left; width:190px; height:600px; color:white; z-index: 6; margin:0 auto; margin:0 10px 10px 0;}
 td th{border:1px solid lightsalmon; color:white; z-index: 6;}
 
 
@@ -74,10 +72,22 @@ td th{border:1px solid lightsalmon; color:white; z-index: 6;}
 
 @media screen and (max-width:599px){
         .banner{width:100%; height:100vh;}
-        #whats{width:100%; height:800px; display:flex;margin:0 auto;}
-        .container{width:100%; height:800px; display:flex; flex-flow:column; margin:0 auto;}
-        .page1{margin:0 auto;}
-        #price{width:100%; height:1200px; display:flex; }
-        .container2{width:100%; height:1200px; display:flex; flex-flow:column; margin:0 auto;}
+        #whats{width:100%; height:1250px; }
+        .container{width:100%; height:1250px; flex-flow:column;  }
+        .ingo{display:flex; flex-flow:column; }
+        .ingo > img{width:100vw;}
+    
+
+
+        #price{width:100%; height:1350px; display:flex; }
+        .container2{width:100%; height:1350px; display:flex; flex-flow:column; }
+        table{width: 200px; height:350px;}
+
+        #service{width:100%; height:1350px; display:flex; }
+        .container4{width:100%; height:1350px; display:flex; flex-flow:column; }
+
+        #choose{width:100%; height:1350px; display:flex; }
+        .container5{width:100%; height:1350px; display:flex; flex-flow:column; }
+       
     }
     

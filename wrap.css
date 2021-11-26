@@ -62,3 +62,11 @@ p{color:#90bcd5;}
 
 
 /* container7 review section */
+
+
+@media screen and (max-width:599px){
+    #wrap{flex-flow:column;}
+    #wrap1{flex-flow:column; margin:0 20px 200px 0; }
+    #wrap2{flex-flow:column;margin:0 20px 200px 0;}
+    #wrap3{flex-flow:column;}
+}

@@ -18,7 +18,7 @@ p{color:#90bcd5;}
 .box1 {width:45%; height:150px;  display: flex; text-decoration-line: none; background-color:#1e1e1e; }
 .photo1 {background-color:white ;width:35%; height:150px;  background-position:center; background-size:cover;  }
 
-.text1 {width: 60%; padding-top:20px; padding-left: 20px; text-align: left; }
+.text1 {width: 60%; padding-top:10px; padding-left: 20px; text-align: left; }
 h3{color:white;}
 p{color:#90bcd5;}
 
@@ -26,7 +26,7 @@ p{color:#90bcd5;}
 .box2 {width:45%; height:150px;  display: flex; text-decoration-line: none; background-color:#1e1e1e; }
 .photo2 {padding-top:10px; background-color: white ;width:35%; height:150px; background-position:center; background-size:cover;  }
 
-.text2 {width: 60%; padding-top:20px; padding-left: 20px; text-align: left; }
+.text2 {width: 60%; padding-top:10px; padding-left: 20px; text-align: left; }
 h3{color:white;}
 p{color:#90bcd5;}
 
@@ -35,7 +35,7 @@ p{color:#90bcd5;}
 .box3 {width:45%; height:150px;  display: flex; text-decoration-line: none; background-color:#1e1e1e; }
 .photo3 {width:35%; height:150px; background-color: white ; background-position:center; background-size:cover; }
 
-.text3 {width: 60%; padding-top:20px; padding-left: 20px; text-align: left; }
+.text3 {width: 60%; padding-top:10px; padding-left: 20px; text-align: left; }
 h3{color:white;}
 p{color:#90bcd5;}
 
@@ -94,6 +94,6 @@ p{color:#90bcd5;}
     #wrap5{width: 100%; height:auto;  flex-direction:row wrap;}
     .box5{width:90%; height:150px; margin:20px 0;}
     .photo5 {width:40%; height:150px; background-position:center; background-size:cover; }
-   
+    .text4 , .text5{padding:-10px;}
 
 }

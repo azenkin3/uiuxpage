@@ -13,23 +13,24 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
     <script src="https://kit.fontawesome.com/29e4618e1b.js" crossorigin="anonymous"></script>
     <style>
-        .container {transform:translate(-500px); transition: all 3s; opacity: 0; }
-        .container2 {transform:translate(300px); transition: all 3s; opacity: 0; }
+        article{transform:translate(-500px); transition: all 3s; opacity: 0; }
+        table{transform:translate(300px); transition: all 3s; opacity: 0; }
         .text {transform:translateY(100px); transition: all 3s; opacity: 0;}
         .photo {transform:translateY(100px); transition: all 3s; opacity: 0;}
 
-        .text1 {transform:translateX(-500px); transition: all 3s; opacity: 0;}
-        .text2 {transform:translateX(300px); transition: all 3s; opacity: 0;}
+        .text1 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
+        .text2 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
         .text3 {transform:translateY(100px); transition: all 3s; opacity: 0;}
-        .photo1 {transform:translateX(-500px); transition: all 3s; opacity: 0;}
-        .photo2 {transform:translateX(300px); transition: all 3s; opacity: 0;}
+
+        .photo1 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
+        .photo2 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
         .photo3 {transform:translateY(100px); transition: all 3s; opacity: 0;}
-        #bottom2 {transform:translateY(200px); transition: all 3s; opacity: 0;}
-        .text4 {transform:translateX(300px); transition: all 3s; opacity: 0;}
-        .text5 {transform:translateX(300px); transition: all 3s; opacity: 0;}
-        .photo4 {transform:translateX(-500px); transition: all 3s; opacity: 0;}
-        .photo5 {transform:translateX(-500px); transition: all 3s; opacity: 0;}
-        #bottom3 {transform:translateY(200px); transition: all 3s; opacity: 0;}
+    
+        .text4 {transform:translateX(200px); transition: all 3s; opacity: 0;}
+        .text5 {transform:translateX(200px); transition: all 3s; opacity: 0;}
+        .photo4 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
+        .photo5 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
+       
 
      
     </style>
@@ -111,7 +112,7 @@
 
     
 
-    <div id="price">
+    <div id="price" style="position:pixed;">
         
         <div class="container2">
             <div class="page2">
@@ -124,64 +125,70 @@
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                 commodo consequat.</p>
 
+               
+
                 <table border="1">
-                    <th>ok</th>
-                    <th>ok</th>
-                    <th>ok</th>
-                    <th>ok</th>
-                    <th>ok</th>
+                    <th style="background-color: #1f1f1f;">Free</th>
+                    <tr><td rowspan="1" style="background-color: #1a1a1a; height:100px;"><h2>$0</h2> <h5>.month </h5></td></tr>
+                        <tr><td style="background-color: #1f1f1f;">Quad Core Processor</td></tr>
+                        <tr><td style="background-color: #1f1f1f;">100GB DISK</td></tr>
+                        <tr><td style="background-color: #1a1a1a;">8GB RAM</td></tr>
+                        <tr><td style="background-color: #1f1f1f;">Admin Area</td></tr>
+                        <tr><td style="background-color: #1a1a1a;">Unlimed Mail</td></tr>
+                        <tr><td style="background-color: #1f1f1f;">24H/7D Free Support</td></tr>
+                  
+                    </table>
 
-                    <tr>
-                        <td rowspan="1">Quad Core Processor</td>
-                        <td rowspan="1">Quad Core Processor</td>
-                        <td rowspan="1">Quad Core Processor</td>
-                        <td rowspan="1">Quad Core Processor</td>
-                        <td rowspan="1">Quad Core Processor</td>
-                    </tr>
+                    <table border="1">
+                        <th style="background-color: #1f1f1f;">Basic</th>
+                        <tr><td rowspan="1" style="background-color: #1a1a1a; height:100px;" ><h2>$0</h2> <h5>.month </h5></td></tr>
+                            <tr><td style="background-color: #1f1f1f;">Quad Core Processor</td></tr>
+                            <tr><td style="background-color: #1f1f1f;">100GB DISK</td></tr>
+                            <tr><td style="background-color: #1a1a1a;">8GB RAM</td></tr>
+                            <tr><td style="background-color: #1f1f1f;">Admin Area</td></tr>
+                            <tr><td style="background-color: #1a1a1a;">Unlimed Mail</td></tr>
+                            <tr><td style="background-color: #1f1f1f;">24H/7D Free Support</td></tr>
+                      
+                        </table>
 
-                    
+                        <table border="1">
+                            <th style="background-color: #1f1f1f;">Silver</th>
+                            <tr><td rowspan="1" style="background-color: #1a1a1a; height:100px;" ><h2>$0</h2> <h5>.month </h5></td></tr>
+                                <tr><td style="background-color: #1f1f1f;">Quad Core Processor</td></tr>
+                                <tr><td style="background-color: #1f1f1f;">100GB DISK</td></tr>
+                                <tr><td style="background-color: #1a1a1a;">8GB RAM</td></tr>
+                                <tr><td style="background-color: #1f1f1f;">Admin Area</td></tr>
+                                <tr><td style="background-color: #1a1a1a;">Unlimed Mail</td></tr>
+                                <tr><td style="background-color: #1f1f1f;">24H/7D Free Support</td></tr>
+                          
+                            </table>
 
+                            <table border="1">
+                                <th style="background-color: #1f1f1f;">Gold</th>
+                                <tr><td rowspan="1" style="background-color: #1a1a1a; height:100px;" ><h2>$0</h2> <h5>.month </h5></td></tr>
+                                    <tr><td style="background-color: #1f1f1f;">Quad Core Processor</td></tr>
+                                    <tr><td style="background-color: #1f1f1f;">100GB DISK</td></tr>
+                                    <tr><td style="background-color: #1a1a1a;">8GB RAM</td></tr>
+                                    <tr><td style="background-color: #1f1f1f;">Admin Area</td></tr>
+                                    <tr><td style="background-color: #1a1a1a;">Unlimed Mail</td></tr>
+                                    <tr><td style="background-color: #1f1f1f;">24H/7D Free Support</td></tr>
+                              
+                                </table>
 
-                    <tr>
-                        <td>harddisk 값변경</td>
-                        <td>harddisk 값변경</td>
-                        <td>harddisk 값변경</td>
-                        <td>harddisk 값변경</td>
-                        <td>harddisk 값변경</td>
-                    </tr>
+                                <table border="1">
+                                    <th style="background-color: #1f1f1f;">Platinum</th>
+                                    <tr><td rowspan="1" style="background-color: #1a1a1a; height:100px;" ><h2>$0</h2> <h5>.month </h5></td></tr>
+                                        <tr><td style="background-color: #1f1f1f;">Quad Core Processor</td></tr>
+                                        <tr><td style="background-color: #1f1f1f;">100GB DISK</td></tr>
+                                        <tr><td style="background-color: #1a1a1a;">8GB RAM</td></tr>
+                                        <tr><td style="background-color: #1f1f1f;">Admin Area</td></tr>
+                                        <tr><td style="background-color: #1a1a1a;">Unlimed Mail</td></tr>
+                                        <tr><td style="background-color: #1f1f1f;">24H/7D Free Support</td></tr>
+                                  
+                                    </table>
 
-                    <tr>
-                        <td>ram 값변경</td>
-                        <td>ram 값변경</td>
-                        <td>ram 값변경</td>
-                        <td>ram 값변경</td>
-                        <td>ram 값변경</td>
-                    </tr>
-
-                    <tr>
-                        <td>admin area</td>
-                        <td>admin area</td>
-                        <td>admin area</td>
-                        <td>admin area</td>
-                        <td>admin area</td>
-                    </tr>
-
-                    <tr>
-                        <td>Unlimited Mail</td>
-                        <td>Unlimited Mail</td>
-                        <td>Unlimited Mail</td>
-                        <td>Unlimited Mail</td>
-                        <td>Unlimited Mail</td>
-                    </tr>
-
-                    <tr>
-                        <td>24hour 7days</td>
-                        <td>24hour 7days</td>
-                        <td>24hour 7days</td>
-                        <td>24hour 7days</td>
-                        <td>24hour 7days</td>
-                    </tr>
-                </table>
+                               
+            
 
                 
 
@@ -433,6 +440,8 @@
                         <a href="#"><i class="fab fa-skype"></i>
                             <a href="#"><i class="fab fa-google-plus-g"></i>
 
+                            </a>
+<a>
                      <h4>@copyright-onehost by Designesia</h4>
 
                 </a>
@@ -448,11 +457,11 @@
     $(window).scroll(function () {
         var ws = $(this).scrollTop();
         if (ws > 250) {
-            $('.container').css("transform", "translateX(0px)").css("opacity", "1")
+            $('article').css("transform", "translateX(0px)").css("opacity", "1")
         }
 
         if (ws > 800) {
-            $('.container2').css("transform", "translateX(0px)").css("opacity", "1")
+            $('table').css("transform", "translateX(0px)").css("opacity", "1")
         }
 
         if (ws > 1550) {
@@ -484,25 +493,22 @@
         if (ws > 2550) {
             $('.photo3').css("transform","translateY(0px)").css("opacity","1")
         }
-        if (ws > 1600) {
-            $('#bottom2').css("transform","translateY(0px)").css("opacity","1")
-        }
+
+        
         if (ws > 2600) {
             $('.text4').css("transform","translateX(0px)").css("opacity","1")
         }
 
-        if (ws > 2700) {
+        if (ws > 3050) {
             $('.text5').css("transform","translateX(0px)").css("opacity","1")
         }
         if (ws > 2600) {
             $('.photo4').css("transform","translateY(0px)").css("opacity","1")
         }
-        if (ws > 2700) {
+        if (ws > 3050) {
             $('.photo5').css("transform","translateY(0px)").css("opacity","1")
         }
-        if (ws > 2900) {
-            $('#bottom3').css("transform","translateY(0px)").css("opacity","1")
-        }
+       
         
     });
 

@@ -44,9 +44,9 @@ td th{border:1px solid lightsalmon; color:white; z-index: 6;}
 
 
 
-#service{width:100%; height:800px; background-color: #2079ab;}
+#service{width:100%; height:800px; background-color: #2079ab; flex-flow:row wrap;}
 .container4{margin:0 auto; width:1200px; height:800px; background-color: #2079ab; text-align: center;}
-.container4 > .page4 {align-items: center; z-index: 6;}
+.container4 > .page4 { z-index: 6;}
 .container4 > .page4 > h1 {padding:20px; color:white; z-index: 6;}
 .container4 > .page4 > p {padding:20px;color:white; z-index: 6;}
 
@@ -63,8 +63,8 @@ td th{border:1px solid lightsalmon; color:white; z-index: 6;}
 .container6 > .page6 > h1 {padding:20px; color:white; z-index: 6;}
 .container6 > .page6 > p {padding:20px;color:white; z-index: 6;}
 
-#footer{width:100%; height:200px; background-color:#1a1a1a; text-decoration-line: none;}
-.container7{padding:35px;margin:0 auto; width:1200px; height:200px; background-color:#1a1a1a; text-align: center; text-decoration-line: none;}
+#footer{width:100%; height:200px; background-color:#1f1f1f; text-decoration-line: none;}
+.container7{padding:35px;margin:0 auto; width:1200px; height:200px; background-color:#1f1f1f; text-align: center; text-decoration-line: none;}
 .social{display:inline-block; margin:0 auto; padding:0; text-align: center;}
 .social{font-size:2em;}
 .container7 > .social > a{color:white; text-decoration-line: none;}
@@ -73,18 +73,18 @@ td th{border:1px solid lightsalmon; color:white; z-index: 6;}
 @media screen and (max-width:599px){
         .banner{width:100%; height:100vh;}
         #whats{width:100%; height:1250px; }
-        .container{width:100%; height:1250px; flex-flow:column;  }
-        .ingo{display:flex; flex-flow:column; }
+        .container{width:100%; height:1250px; flex-flow:column wrap;  }
+        .ingo{flex-direction:column wrap; position:relative; left: 50px; }
         .ingo > img{width:100vw;}
     
 
 
         #price{width:100%; height:1350px; display:flex; }
-        .container2{width:100%; height:1350px; display:flex; flex-flow:column; }
+        .container2{width:100%; height:1350px; display:flex;  }
         table{width: 200px; height:350px;}
 
-        #service{width:100%; height:1350px; display:flex; }
-        .container4{width:100%; height:1350px; display:flex; flex-flow:column; }
+        #service{width:100%; height:1500px; display:flex; }
+        .container4{width:100%; height:1500px; display:flex; flex-flow:column; }
 
         #choose{width:100%; height:1350px; display:flex; }
         .container5{width:100%; height:1350px; display:flex; flex-flow:column; }

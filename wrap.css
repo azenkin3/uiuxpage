@@ -2,10 +2,24 @@ body{text-decoration-line: none;}
 
 /* container5 include section */
 
-#wrap {width:1000px; height:170px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
-.box {width:45%; height:150px;  display: flex; text-decoration-line: none; }
-.photo {width:35%; height:150px; background-position:center; background-size:cover; border-radius: 50%; }
-.text {width: 60%; padding-top:20px; padding-left: 20px; text-align: left; }
+#wrapa {width:1000px; height:170px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
+.boxa {width:45%; height:150px;  display: flex; text-decoration-line: none; }
+.photoa {width:35%; height:150px; background-position:center; background-size:cover; border-radius: 50%; }
+.texta {width: 60%; padding-top:20px; padding-left: 20px; text-align: left; }
+h3{color:white;}
+p{color:#90bcd5;}
+
+#wrapb {width:1000px; height:170px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
+.boxb {width:45%; height:150px;  display: flex; text-decoration-line: none; }
+.photob {width:35%; height:150px; background-position:center; background-size:cover; border-radius: 50%; }
+.textb {width: 60%; padding-top:20px; padding-left: 20px; text-align: left; }
+h3{color:white;}
+p{color:#90bcd5;}
+
+#wrapc {width:1000px; height:170px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
+.boxc {width:45%; height:150px;  display: flex; text-decoration-line: none; }
+.photoc {width:35%; height:150px; background-position:center; background-size:cover; border-radius: 50%; }
+.textc {width: 60%; padding-top:20px; padding-left: 20px; text-align: left; }
 h3{color:white;}
 p{color:#90bcd5;}
 
@@ -65,11 +79,17 @@ p{color:#90bcd5;}
 
 @media screen and (max-width:599px){
     
-    #wrap{width: 100%; height:auto; flex-direction:row wrap;}   
-    .box{width:90%; height:150px; margin:20px 0;}
-    .photo {width:40%; height:150px; background-position:center; background-size:cover; }
+    #wrapa{width: 100%; height:auto; flex-direction:row wrap;}   
+    .boxa{width:90%; height:150px; margin:20px 0;}
+    .photoa {width:40%; height:150px; background-position:center; background-size:cover; }
    
-
+    #wrapb{width: 100%; height:auto; flex-direction:row wrap;}   
+    .boxb{width:90%; height:150px; margin:20px 0;}
+    .photob {width:40%; height:150px; background-position:center; background-size:cover; }
+   
+    #wrapc{width: 100%; height:auto; flex-direction:row wrap;}   
+    .boxc{width:90%; height:150px; margin:20px 0;}
+    .photoc {width:40%; height:150px; background-position:center; background-size:cover; }
   
     #wrap1{width: 100%; height:auto; flex-direction:row wrap;}
     .box1{width:90%; height:150px; margin:20px 0;}

@@ -68,7 +68,7 @@ td th{border:1px solid lightsalmon; color:white; z-index: 6;}
 .container7{padding:35px;margin:0 auto; width:1200px; height:150px; background-color:#1f1f1f; text-align: center; text-decoration-line: none;}
 .social{display:inline-block; margin:0 auto; padding-top:20px; text-align: center;}
 .social{font-size:1.5em;}
-.container7 > .social > a{padding-top:40px;color:white; text-decoration-line: none;}
+.container7 > .social > a{padding-top:40px;color:white; text-decoration-line: none; font-size:1.5em;}
 .container7 > .social > a:hover{color:#2079ab;}
 
 @media screen and (max-width:599px){

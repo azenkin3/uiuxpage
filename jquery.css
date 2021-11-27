@@ -1,0 +1,30 @@
+
+        .at1{transform:translate(-500px); transition: all 3s; opacity: 0; }
+        .at2{transform:translate(-500px); transition: all 3s; opacity: 0; }
+        .at3{transform:translate(-500px); transition: all 3s; opacity: 0; }
+        table{transform:translate(300px); transition: all 3s; opacity: 0; }
+        .texta {transform:translateY(100px); transition: all 3s; opacity: 0;}
+        .photoa {transform:translateY(100px); transition: all 3s; opacity: 0;}
+
+        .textb {transform:translateY(100px); transition: all 3s; opacity: 0;}
+        .photob {transform:translateY(100px); transition: all 3s; opacity: 0;}
+
+        .textc {transform:translateY(100px); transition: all 3s; opacity: 0;}
+        .photoc {transform:translateY(100px); transition: all 3s; opacity: 0;}
+
+        .text1 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
+        .text2 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
+        .text3 {transform:translateY(100px); transition: all 3s; opacity: 0;}
+
+        .photo1 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
+        .photo2 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
+        .photo3 {transform:translateY(100px); transition: all 3s; opacity: 0;}
+    
+        .text4 {transform:translateX(200px); transition: all 3s; opacity: 0;}
+        .text5 {transform:translateX(200px); transition: all 3s; opacity: 0;}
+        .photo4 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
+        .photo5 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
+       
+
+     
+        

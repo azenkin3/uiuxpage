@@ -9,9 +9,13 @@
     <link rel="stylesheet" href="loader.css">
     <link rel="stylesheet" href="wrap.css">
     <link rel="stylesheet" href="media.css">
+    
+
+    <script src="script.js"></script>
 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
     <script src="https://kit.fontawesome.com/29e4618e1b.js" crossorigin="anonymous"></script>
+
     <style>
         .at1{transform:translate(-500px); transition: all 3s; opacity: 0; }
         .at2{transform:translate(-500px); transition: all 3s; opacity: 0; }
@@ -38,9 +42,6 @@
         .text5 {transform:translateX(200px); transition: all 3s; opacity: 0;}
         .photo4 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
         .photo5 {transform:translateX(-200px); transition: all 3s; opacity: 0;}
-       
-
-     
     </style>
 </head>
 <body>
@@ -457,12 +458,8 @@
             
         </div>
     </div>
-
-
-<script>
-
-    
-    $(window).scroll(function () {
+    <script>
+         $(window).scroll(function () {
         var ws = $(this).scrollTop();
         if (matchMedia("screen and (min-width: 600px)").matches) {
         
@@ -538,7 +535,7 @@
 
         }else{
 
-
+ /* service include wrapc*/
             if (ws > 500) {
             $('.at1').css("transform", "translateX(0px)").css("opacity", "1")
         }
@@ -551,72 +548,71 @@
             $('.at3').css("transform", "translateX(0px)").css("opacity", "1")
         }
 
-        if (ws > 2250) {
+        if (ws > 1800) {
             $('table').css("transform", "translateX(0px)").css("opacity", "1")
         }
 
-        if (ws > 5250) {
-            $('.text').css("transform", "translateY(0px)").css("opacity", "1")
-
+          /* service include wrapa*/
+          if (ws > 5500) {
+            $('.texta').css("transform", "translateY(0px)").css("opacity", "1")
         }
-
-        if (ws > 1550) {
-            $('.photo').css("transform", "translateY(0px)").css("opacity","1")
+        if (ws > 5500) {
+            $('.photoa').css("transform", "translateY(0px)").css("opacity","1")
         }
-
-        if (ws > 2300) {
+        /* service include wrapb*/
+        if (ws > 5950) {
+            $('.textb').css("transform", "translateY(0px)").css("opacity", "1")
+        }
+        if (ws > 5950) {
+            $('.photob').css("transform", "translateY(0px)").css("opacity","1")
+        }
+        /* service include wrapc*/
+        if (ws > 6300) {
+            $('.textc').css("transform", "translateY(0px)").css("opacity", "1")
+        }
+        if (ws > 6300) {
+            $('.photoc').css("transform", "translateY(0px)").css("opacity","1")
+        }
+ /* service include wrapc*/
+        if (ws > 7150) {
             $('.text1').css("transform","translateX(0px)").css("opacity","1")
         }
-
-        if (ws > 2400) {
-            $('.text2').css("transform","translateX(0px)").css("opacity","1")
-        }
-
-        if (ws > 2500) {
-            $('.text3').css("transform","translateY(0px)").css("opacity","1")
-        }
-        if (ws > 2300) {
+        if (ws > 7150) {
             $('.photo1').css("transform","translateY(0px)").css("opacity","1")
         }
-        if (ws > 2400) {
+ /* service include wrapc*/
+        if (ws > 7450) {
+            $('.text2').css("transform","translateX(0px)").css("opacity","1")
+        }
+        if (ws > 7450) {
             $('.photo2').css("transform","translateY(0px)").css("opacity","1")
         }
-        if (ws > 2550) {
+         /* service include wrapc*/
+        if (ws > 7800) {
+            $('.text3').css("transform","translateY(0px)").css("opacity","1")
+        }
+        if (ws > 7800) {
             $('.photo3').css("transform","translateY(0px)").css("opacity","1")
         }
-
-        
-        if (ws > 2600) {
+     
+        /* service include wrapc*/
+        if (ws > 8600) {
             $('.text4').css("transform","translateX(0px)").css("opacity","1")
         }
-
-        if (ws > 3050) {
-            $('.text5').css("transform","translateX(0px)").css("opacity","1")
-        }
-        if (ws > 2600) {
+        if (ws > 8600) {
             $('.photo4').css("transform","translateY(0px)").css("opacity","1")
         }
-        if (ws > 3050) {
-            $('.photo5').css("transform","translateY(0px)").css("opacity","1")
+        /* service include wrapc*/
+        if (ws > 8900) {
+            $('.text5').css("transform","translateX(0px)").css("opacity","1")
         }
-       
+        if (ws > 8900) {
+            $('.photo5').css("transform","translateY(0px)").css("opacity","1")
+        } 
+    }     
+    }); 
 
-    
-       
-    }
-
-        
-        
-    });
-
-
-    
-</script>
-
-
-
-
-
+    </script>
 </body>
 
 </html>

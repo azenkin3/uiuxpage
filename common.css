@@ -1,0 +1,17 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+        ul, ol, li {list-style: none; margin: 0; padding: 0; }
+        .navbar{margin:0 auto; height:80px; width:100%; background-color:#1a1a1a; z-index: 10; justify-content: center; text-align: center; z-index:10;  }
+
+        #logo{float:left; width:150px; height:40px;}
+.container10{position:fixed; padding-top:30px;  margin:0 auto; width:1200px; height:40x;  left:50%; transform:translate(-50%,0); background-color:#1a1a1a; z-index:10; }
+.navbar ul {display:flex; justify-content: space-evenly; padding-left:150px; }
+.navbar ul li a{color:white; text-decoration-line: none; }
+.navbar ul li a:hover{color:#2079ab;}
+
+#footer{width:100%; height:150px; background-color:#1f1f1f; text-decoration-line: none;}
+.container7{padding:35px;margin:0 auto; width:1200px; height:150px; background-color:#1f1f1f; text-align: center; text-decoration-line: none;}
+.social{display:inline-block; margin:0 auto; padding-top:20px; text-align: center;}
+.social{font-size:1.5em;}
+.container7 > .social > a{padding-top:40px;color:white; text-decoration-line: none; font-size:1.5em;}
+.container7 > .social > a:hover{color:#2079ab;}

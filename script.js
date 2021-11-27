@@ -1,8 +1,7 @@
         
 
       
-
-    $(function(){
+  
         $(window).scroll(function () {
         var ws = $(this).scrollTop();
         if (matchMedia("screen and (min-width: 600px)").matches) {
@@ -154,5 +153,5 @@
             $('.photo5').css("transform","translateY(0px)").css("opacity","1")
         } 
     }     
-});
+
     }); 

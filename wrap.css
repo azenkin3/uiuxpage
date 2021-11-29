@@ -77,7 +77,48 @@ p{color:#90bcd5;}
 
 /* container7 review section */
 
-@media screen and (max-width:800px){
+@media screen and (max-width:700px){
+    
+    #wrapa{width: 100%; height:auto; flex-direction:row wrap;}   
+    .boxa{width:90%; height:150px; margin:20px 0;}
+    .photoa {width:40%; height:150px; background-position:center; background-size:cover; }
+   
+    #wrapb{width: 100%; height:auto; flex-direction:row wrap;}   
+    .boxb{width:90%; height:150px; margin:20px 0;}
+    .photob {width:40%; height:150px; background-position:center; background-size:cover; }
+   
+    #wrapc{width: 100%; height:auto; flex-direction:row wrap;}   
+    .boxc{width:90%; height:150px; margin:20px 0;}
+    .photoc {width:40%; height:150px; background-position:center; background-size:cover; }
+  
+    #wrap1{width: 100%; height:auto; flex-direction:row wrap;}
+    .box1{width:90%; height:150px; margin:20px 0;}
+    .photo1 {width:40%; height:150px; background-position:center; background-size:cover; }
+   
+   
+    #wrap2{width: 100%; height:auto;  flex-direction:row wrap;}
+    .box2{width:90%; height:150px; margin:20px 0;}
+    .photo2 {width:40%; height:150px; background-position:center; background-size:cover; }
+    
+
+    #wrap3{width: 100%; height:auto;  flex-direction:row wrap;}
+    .box3{width:90%; height:150px; margin:20px 0;}
+    .photo3 {width:40%; height:150px; background-position:center; background-size:cover; }
+    
+
+    #wrap4{width: 100%; height:auto; flex-direction:row wrap;}
+    .box4{width:90%; height:150px; margin:20px 0;}
+    .photo4 {width:40%; height:150px; background-position:center; background-size:cover; }
+    
+
+    #wrap5{width: 100%; height:auto;  flex-direction:row wrap;}
+    .box5{width:90%; height:150px; margin:20px 0;}
+    .photo5 {width:40%; height:150px; background-position:center; background-size:cover; }
+    .text4 , .text5{padding:-10px;}
+
+}
+
+@media (max-width:945px) and (min-width:701px){
     
     #wrapa{width: 100%; height:auto; flex-direction:row wrap;}   
     .boxa{width:90%; height:150px; margin:20px 0;}

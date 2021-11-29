@@ -103,10 +103,4 @@ td th{border:1px solid lightsalmon; color:white; z-index: 6;}
     
 
 
-    @media screen   and (min-width:801px){
-        .container > .page1 > article > img {width:30%; height:50%;}
-        .container > .page1 > article > h1 {text-align: center; color:white;}
-.container > .page1 > article > p {text-align:center; color:white;}
-table{width:150px; height:600px; margin:20px 5px ;}
-            
-    }
+   

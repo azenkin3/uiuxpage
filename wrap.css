@@ -77,7 +77,7 @@ p{color:#90bcd5;}
 
 /* container7 review section */
 
-@media screen and (max-width:599px){
+@media screen and (max-width:750px){
     
     #wrapa{width: 100%; height:auto; flex-direction:row wrap;}   
     .boxa{width:90%; height:150px; margin:20px 0;}

@@ -4,7 +4,7 @@
   
         $(window).scroll(function () {
         var ws = $(this).scrollTop();
-        if (matchMedia("screen and (min-width: 600px)").matches) {
+        if (matchMedia("screen and (max-width: 800px)").matches) {
         
        
        /* whats , 테이블 설정 600px 이상 */
@@ -78,7 +78,10 @@
 
         }else{
 
+        
+
  /* service include wrapc*/
+
             if (ws > 500) {
             $('.at1').css("transform", "translateX(0px)").css("opacity", "1")
         }
@@ -152,6 +155,10 @@
         if (ws > 8900) {
             $('.photo5').css("transform","translateY(0px)").css("opacity","1")
         } 
-    }     
+
+                }    
+
+        
+     
 
     }); 

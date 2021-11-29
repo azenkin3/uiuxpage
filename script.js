@@ -4,7 +4,7 @@
   
         $(window).scroll(function () {
         var ws = $(this).scrollTop();
-        if (matchMedia("screen and (max-width: 800px)").matches) {
+        if (matchMedia("screen and (min-width: 800px)").matches) {
         
        
        /* whats , 테이블 설정 600px 이상 */

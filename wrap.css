@@ -158,3 +158,47 @@ p{color:#90bcd5;}
     .text4 , .text5{padding:-10px;}
 
 }
+
+@media (max-width:1199px) and (min-width:946px){
+    
+    #wrapa{width: 100%; height:auto; position:relative; left:2%;}   
+    .boxa{width:50%; height:190px; margin:20px 0;}
+    .photoa {width:35%; height:150px; background-position:center; background-size:cover; }
+    .texta{padding-left: 10px;}
+
+    #wrapb{width: 100%; height:auto; position:relative; left:2%;}   
+    .boxb{width:50%; height:150px; margin:20px 0;}
+    .photob {width:35%; height:150px; background-position:center; background-size:cover; }
+    .textb{padding-left: 10px;}
+
+    #wrapc{width: 100%; height:auto; position:relative; left:2%;}   
+    .boxc{width:50%; height:150px; margin:20px 0;}
+    .photoc {width:35%; height:150px; background-position:center; background-size:cover; }
+    .textc{padding-left: 10px;}
+
+    #wrap1{width: 100%; height:auto; position:relative; left:2%;}
+    .box1{width:40%; height:150px; margin:20px 0;}
+    .photo1 {width:35%; height:150px; background-position:center; background-size:cover; }
+    .text1{padding-left: 10px;}
+   
+    #wrap2{width: 100%; height:auto; position:relative; left:2%; }
+    .box2{width:40%; height:150px; margin:20px 0;}
+    .photo2 {width:35%; height:150px; background-position:center; background-size:cover; }
+    .text2{padding-left: 10px;}
+
+    #wrap3{width: 100%; height:auto;  position:relative; left:2%;}
+    .box3{width:40%; height:150px; margin:20px 0;}
+    .photo3 {width:35%; height:150px; background-position:center; background-size:cover; }
+    .text3{padding-left: 10px;}
+
+    #wrap4{width: 100%; height:auto; position:relative; left:2%; }
+    .box4{width:50%; height:150px; margin:20px 0;}
+    .photo4 {width:35%; height:150px; background-position:center; background-size:cover; }
+    
+
+    #wrap5{width: 100%; height:auto; position:relative; left:2%;}  
+    .box5{width:50%; height:150px; margin:20px 0;}
+    .photo5 {width:35%; height:150px; background-position:center; background-size:cover; }
+    .text4 , .text5{padding:-10px;}
+
+}

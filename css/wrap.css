@@ -28,28 +28,29 @@ p{color:#90bcd5;}
 
 /* container6 choose section */
 
-#wrap1 {width:1000px; height:170px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
-.box1 {width:45%; height:150px;  display: flex; text-decoration-line: none; background-color:#1e1e1e; }
-.photo1 {background-color:white ;width:35%; height:150px;  background-position:center; background-size:cover;  }
+#wrap1 {width:1200px; height:170px;  margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
+.box1 {width:48%; height:150px;  display: flex; text-decoration-line: none; background-color:#1e1e1e; }
+#wrap1 > .box1 > i {color:white; font-size:80px; padding-top:30px; padding-left:30px; }
+#wrap1 > .box1 > i:hover{color:#2079ab}
 
-.text1 {width: 60%; padding-top:10px; padding-left: 20px; text-align: left; }
+.text1 {width: 70%; padding-top:20px; padding-left: 10px; text-align: right; }
 h3{color:white;}
 p{color:#90bcd5;}
 
-#wrap2 {width:1000px; height:170px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
-.box2 {width:45%; height:150px;  display: flex; text-decoration-line: none; background-color:#1e1e1e; }
-.photo2 {padding-top:10px; background-color: white ;width:35%; height:150px; background-position:center; background-size:cover;  }
-
-.text2 {width: 60%; padding-top:10px; padding-left: 20px; text-align: left; }
+#wrap2 {width:1200px; height:170px;  margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
+.box2 {width:48%; height:150px;  display: flex; text-decoration-line: none; background-color:#1e1e1e; }
+#wrap2 > .box2 > i {color:white; font-size:80px; padding-top:30px; padding-left:30px; }
+#wrap2 > .box2 > i:hover{color:#2079ab}
+.text2 {width: 75%; padding-top:20px; padding-left:20px; text-align: right; }
 h3{color:white;}
 p{color:#90bcd5;}
 
 
-#wrap3 {width:1000px; height:170px;  margin:0 auto; display:flex; justify-content:space-around; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
-.box3 {width:45%; height:150px;  display: flex; text-decoration-line: none; background-color:#1e1e1e; }
-.photo3 {width:35%; height:150px; background-color: white ; background-position:center; background-size:cover; }
-
-.text3 {width: 60%; padding-top:10px; padding-left: 20px; text-align: left; }
+#wrap3 {width:1200px; height:170px;  margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
+.box3 {width:48%; height:150px;  display: flex; text-decoration-line: none; background-color:#1a1a1a; }
+#wrap3 > .box3 > i {color:white; font-size:80px; padding-top:30px; padding-left:40px;  }
+#wrap3 > .box3 > i:hover{color:#2079ab}
+.text3 {width: 75%; padding-top:20px; padding-left: 20px; text-align: right;}
 h3{color:white;}
 p{color:#90bcd5;}
 
@@ -92,18 +93,18 @@ p{color:#90bcd5;}
     .photoc {width:40%; height:150px; background-position:center; background-size:cover; }
   
     #wrap1{width: 100%; height:auto; flex-direction:row wrap;}
-    .box1{width:90%; height:150px; margin:20px 0;}
-    .photo1 {width:40%; height:150px; background-position:center; background-size:cover; }
+    .box1{width:100%; height:150px; margin:20px 0;}
+    i{width:40%; height:150px; background-position:center; background-size:cover; }
    
    
     #wrap2{width: 100%; height:auto;  flex-direction:row wrap;}
-    .box2{width:90%; height:150px; margin:20px 0;}
-    .photo2 {width:40%; height:150px; background-position:center; background-size:cover; }
+    .box2{width:100%; height:150px; margin:20px 0;}
+    i {width:50%; height:150px; background-position:center; background-size:cover; }
     
 
     #wrap3{width: 100%; height:auto;  flex-direction:row wrap;}
-    .box3{width:90%; height:150px; margin:20px 0;}
-    .photo3 {width:40%; height:150px; background-position:center; background-size:cover; }
+    .box3{width:100%; height:150px; margin:20px 0;}
+    i{width:50%; height:150px; background-position:center; background-size:cover; }
     
 
     #wrap4{width: 100%; height:auto; flex-direction:row wrap;}
@@ -121,30 +122,31 @@ p{color:#90bcd5;}
 @media (max-width:945px) and (min-width:701px){
     
     #wrapa{width: 100%; height:auto; flex-direction:row wrap;}   
-    .boxa{width:90%; height:150px; margin:20px 0;}
+    .boxa{width:100%; height:150px; margin:20px 0;}
     .photoa {width:40%; height:150px; background-position:center; background-size:cover; }
    
     #wrapb{width: 100%; height:auto; flex-direction:row wrap;}   
-    .boxb{width:90%; height:150px; margin:20px 0;}
+    .boxb{width:100%; height:150px; margin:20px 0;}
     .photob {width:40%; height:150px; background-position:center; background-size:cover; }
    
     #wrapc{width: 100%; height:auto; flex-direction:row wrap;}   
-    .boxc{width:90%; height:150px; margin:20px 0;}
+    .boxc{width:100%; height:150px; margin:20px 0;}
     .photoc {width:40%; height:150px; background-position:center; background-size:cover; }
   
     #wrap1{width: 100%; height:auto; flex-direction:row wrap;}
-    .box1{width:90%; height:150px; margin:20px 0;}
-    .photo1 {width:40%; height:150px; background-position:center; background-size:cover; }
+    .box1{width:100%; height:150px; margin:20px 0;}
+    .i{width:35%; height:150px; padding:none; }
+  
    
    
     #wrap2{width: 100%; height:auto;  flex-direction:row wrap;}
-    .box2{width:90%; height:150px; margin:20px 0;}
-    .photo2 {width:40%; height:150px; background-position:center; background-size:cover; }
+    .box2{width:100%; height:150px; margin:20px 0;}
+    .i{width:35%; height:150px; padding:none; }
     
 
     #wrap3{width: 100%; height:auto;  flex-direction:row wrap;}
-    .box3{width:90%; height:150px; margin:20px 0;}
-    .photo3 {width:40%; height:150px; background-position:center; background-size:cover; }
+    .box3{width:100%; height:150px; margin:20px 0;}
+    .i{width:35%; height:150px; padding:none; }
     
 
     #wrap4{width: 100%; height:auto; flex-direction:row wrap;}
@@ -172,24 +174,24 @@ p{color:#90bcd5;}
     .textb{padding-left: 10px;}
 
     #wrapc{width: 100%; height:auto; position:relative; left:2%;}   
-    .boxc{width:50%; height:150px; margin:20px 0;}
+    .boxc{width:50%; height:150px; margin:20px 0px;}
     .photoc {width:35%; height:150px; background-position:center; background-size:cover; }
     .textc{padding-left: 10px;}
 
     #wrap1{width: 100%; height:auto; position:relative; left:2%;}
-    .box1{width:40%; height:150px; margin:20px 0;}
-    .photo1 {width:35%; height:150px; background-position:center; background-size:cover; }
+    .box1{width:45%; height:150px; margin:20px 25px;}
+    .i{width:35%; height:150px; background-position:center; background-size:cover; padding:none; }
     .text1{padding-left: 10px;}
    
     #wrap2{width: 100%; height:auto; position:relative; left:2%; }
-    .box2{width:40%; height:150px; margin:20px 0;}
-    .photo2 {width:35%; height:150px; background-position:center; background-size:cover; }
+    .box2{width:45%; height:150px; margin:20px 25px;}
+    .i{width:35%; height:150px; background-position:center; background-size:cover; }
     .text2{padding-left: 10px;}
 
     #wrap3{width: 100%; height:auto;  position:relative; left:2%;}
-    .box3{width:40%; height:150px; margin:20px 0;}
-    .photo3 {width:35%; height:150px; background-position:center; background-size:cover; }
-    .text3{padding-left: 10px;}
+    .box3{width:45%; height:150px; margin:20px 25px;}
+    .i{width:35%; height:150px; padding:none; }
+    .text3{padding-left: 10px; float:left;}
 
     #wrap4{width: 100%; height:auto; position:relative; left:2%; }
     .box4{width:50%; height:150px; margin:20px 0;}

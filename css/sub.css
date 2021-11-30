@@ -1,0 +1,7 @@
+#whats{width:100%; height:800px; background-color:red;}
+.container{background-color:blue; width:1200px; height:800px; margin:0 auto; }
+.container > .page1 > .wih {color:white; text-align: center;}
+.container > .page1 > h3 { color:white;  }
+
+#textbox{width:100%; height:150px; background-color: blue;;}
+.tb1{background-color: black; width:1200px; height:150px; margin:0 auto;}

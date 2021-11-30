@@ -5,68 +5,33 @@
 h1{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  list-style:none;}
 
 body{margin:0; padding:0; }
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 12px;
-    background-color: #1a1a1a;
-    height:80px;
-  }
+
+.navbar {width:100%; display: flex; justify-content: space-between;
+  align-items: center;padding: 8px 12px;background-color: #1a1a1a;height:80px; position:fixed;; z-index: 30;}
   
   /* Logo with text */
-  .navbar__logo {
-    font-size: 24px;
-   
-  }
-  
-  .navbar__logo i {
-    color: var(--accent-color);
-  }
+  .navbar__logo { font-size: 24px; padding-top:15px; }
   
   /* Menu */
-  .navbar__menu {
-    display: flex;
-    padding-left: 0;
-    list-style: none;
-  }
+  .navbar__menu {display: flex;  padding-top:15px;}
   
-  .navbar__menu li {
-    padding: 8px 12px; 
+  .navbar__menu li { padding: 8px 20px; 
   }
 
   .navbar__menu li a {color:white; text-decoration: none;}
   
-  .navbar__menu li:hover {
-    background-color: #2079ab;
-    border-radius: 4px;
-  }
-  .navbar__icons {
-    list-style: none;
-    color: var(--text-color);
-    display: flex;
-    padding-left: 0;
-  }
-  
-  /* Icons */
-  .navbar__icons li {
-    padding: 8px 12px;
+  .navbar__menu li:hover {background-color: #2079ab; border-radius: 4px;
   }
   
   /* Toggle button */
-  .navbar__toggleBtn {
-    display: none;
-    position: absolute;
-    right: 32px;
-    font-size: 24px;
-    color: white;}
+  .navbar__toggleBtn {display:none ;position: absolute;right: 32px;font-size: 24px;color: white;}
 
+    .banner{width:100%; height:100vh; overflow: hidden; display: flex; justify-content: center; align-items: center; margin:-20px 0 0 0;}
+    .banner > video {position:absolute; object-fit: cover; width:100%; height:100%; overflow: hidden;}
+    .banner > .content {position: relative; z-index: 1; max-width: 1100px; margin:0 auto; text-align: center;}
+    .banner > .content > h1 {margin:0; padding:0; font-size:4.5em;  text-transform: uppercase; color:white;}
+    .banner > .content > p {margin:0; padding:0;  color:black;}
 
-.banner{width:100%; height:100vh; overflow: hidden; display: flex; justify-content: center; align-items: center; margin:-20px 0 0 0;}
-.banner > video {position:absolute; object-fit: cover; width:100%; height:100%; overflow: hidden;}
-.banner > .content {position: relative; z-index: 1; max-width: 1100px; margin:0 auto; text-align: center;}
-.banner > .content > h1 {margin:0; padding:0; font-size:4.5em;  text-transform: uppercase; color:white;}
-.banner > .content > p {margin:0; padding:0;  color:black;}
 
 #whats{width:100%; height:650px; background-color:#1a1a1a;}
 .container{background-color: #1a1a1a; width:1200px; height:650px;  text-align: center; align-items: center; margin:0 auto;}
@@ -78,7 +43,7 @@ body{margin:0; padding:0; }
 .container > .page1 > article > h1 {text-align: center; color:white;}
 .container > .page1 > article > p {text-align:center; color:white;}
 
-#price{width:100%; height:1050px; color:white;  background-image: url(img/blur1.jpg);  }
+#price{width:100%; height:1050px; color:white;  background-image:url(../img/blur1.jpg);  }
 .container2{ width:1200px; height:1050px;  text-align: center; align-items: center; margin:0 auto; z-index: 6;}
 .container2 > .page2 {align-items: center; z-index: 6;}
 .container2 > .page2 > h1 {padding:40px; color:white; z-index: 6;}
@@ -99,7 +64,7 @@ td th{border:1px solid lightsalmon; color:white; z-index: 6;}
 .container4 > .page4 > h1 {padding:40px; color:white; z-index: 6;}
 .container4 > .page4 > p {padding:40px;color:white; z-index: 6;}
 
-#choose{width:100%; height:900px;  overflow:hidden; background-image: url(img/blur1.jpg);}
+#choose{width:100%; height:900px;  overflow:hidden; background-image: url(../img/blur1.jpg);}
 .container5{margin:0 auto; width:1200px; height:900px;  text-align: center;}
 .container5 > .page5 {align-items: center; z-index: 6;}
 .container5 > .page5 > .chh {padding:40px; color:white; z-index: 6; }
@@ -126,42 +91,29 @@ td th{border:1px solid lightsalmon; color:white; z-index: 6;}
         /* Nav container */
 
         .logo { padding-top:15px;}
-        .navbar {
-          flex-direction: column;
-          
-          align-items: flex-start;
-          padding: 8px 24px;
-        }
+        .navbar {flex-direction: column;align-items: flex-start; padding:none;}
 
         .navbar__logo > img {padding-top:10px;}
       
         /* Menu */
-        .navbar__menu {
-          display: none;
-          flex-direction: column;
-          text-align: center;
-          width: 100%; z-index: 30;
-        }
+        .navbar__menu {  display: block; flex-direction: column;text-align: center; width: 100%; z-index: 30;
+        background-color: #1a1a1a;  }
+
+        .navbar__menu li{padding:none;}
       
         .navbar__menu a {
           /* Fill in an entire line so that user can click on any space */
-          display: block;
+          display: block; color:black;
         }
       
-        /* Icons */
+     
    
       
         /* Toggle button */
-        .navbar__toggleBtn {
-          display: block;
-          padding-top:10px;
-        }
+        .navbar__toggleBtn {display: block; padding-top:25px;}
       
-        /* When toggle button is clicked - active state */
-        .navbar__menu.active{
-     
-          display: flex;
-        }
+        
+        .navbar__menu.active,.navbar__icons.active{display: flex;}
       
 
         .banner{width:100%; height:100vh;}
@@ -226,9 +178,7 @@ td th{border:1px solid lightsalmon; color:white; z-index: 6;}
 
    
 } 
- @media screen and (min-width:1201px){
-  .navbar{display:none;}
-}
+
 
     @media (max-width:1199px) and (min-width:946px){
         .banner{width:100%; height:100vh;}

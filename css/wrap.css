@@ -30,18 +30,18 @@ p{color:#90bcd5;}
 
 #wrap1 {width:1200px; height:170px;  margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
 .box1 {width:48%; height:150px;  display: flex; text-decoration-line: none; background-color:#1e1e1e; }
-#wrap1 > .box1 > i {color:white; font-size:80px; padding-top:30px; padding-left:30px; }
+#wrap1 > .box1 > i {color:white; font-size:80px; padding-top:30px; padding-left:15x; }
 #wrap1 > .box1 > i:hover{color:#2079ab}
 
-.text1 {width: 70%; padding-top:20px; padding-left: 10px; text-align: right; }
+.text1 {width: 75%; padding-top:20px; padding-left: 10px; text-align: right; }
 h3{color:white;}
 p{color:#90bcd5;}
 
 #wrap2 {width:1200px; height:170px;  margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
 .box2 {width:48%; height:150px;  display: flex; text-decoration-line: none; background-color:#1e1e1e; }
-#wrap2 > .box2 > i {color:white; font-size:80px; padding-top:30px; padding-left:30px; }
+#wrap2 > .box2 > i {color:white; font-size:80px; padding-top:30px; padding-left:25px; }
 #wrap2 > .box2 > i:hover{color:#2079ab}
-.text2 {width: 75%; padding-top:20px; padding-left:20px; text-align: right; }
+.text2 {width: 75%; padding-top:20px; padding-left:10px; text-align: right; }
 h3{color:white;}
 p{color:#90bcd5;}
 
@@ -50,7 +50,7 @@ p{color:#90bcd5;}
 .box3 {width:48%; height:150px;  display: flex; text-decoration-line: none; background-color:#1a1a1a; }
 #wrap3 > .box3 > i {color:white; font-size:80px; padding-top:30px; padding-left:40px;  }
 #wrap3 > .box3 > i:hover{color:#2079ab}
-.text3 {width: 75%; padding-top:20px; padding-left: 20px; text-align: right;}
+.text3 {width: 75%; padding-top:20px; padding-left: 10px; text-align: right;}
 h3{color:white;}
 p{color:#90bcd5;}
 

@@ -28,3 +28,9 @@ h1{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 #needs{width:100%; height:900px; background-color: cadetblue;}
 .nb1{margin:0 auto; width:1200px; height:900px; text-align: center;}
 .nb1 > .pagenb > h1 {color:white; text-align: center; padding-top:20px;}
+
+#hostca{width:100%; height:900px; background-color: black;}
+.hcbox1{width:1200px; height:900px; margin:0 auto; background-color:white;}
+
+#libox{width:100%; height:900px; background-color: #2079ab;}
+.libox1{width:1200px; height:900px; margin:0 auto; background-color:black;}

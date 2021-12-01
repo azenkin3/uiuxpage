@@ -1,13 +1,15 @@
 h1{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 
+
 #whats{width:100%; height:800px; background-color:red;}
 .container{background-color:blue; width:1200px; height:800px; margin:0 auto; }
-.container > .page1 > .wih {color:white; text-align: center;}
-.container > .page1 > h3 { color:white;  }
+.container > .page1 > .wih {color:white; text-align: center; padding-top:30px;}
+.container > .page1 > h3 { color:white; text-align: center; padding-top:10px; }
 
-#textbox{width:100%; height:150px; background-color: blue;;}
-.tb1{background-color: black; width:1200px; height:150px; margin:0 auto;}
+#textbox{width:100%; height:150px; background-color: #f55156;
+background-image: linear-gradient(to right,#bb397d,#f55156,#e6237c);}
+.tb1{ width:1200px; height:150px; margin:0 auto;}
 .tb1 > .pagetb > h2 {text-align: center; color:white; padding-top:40px; }
 
 #server{width:100%; height:300px; background-color: #1a1a1a;}
@@ -29,8 +31,16 @@ h1{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 .nb1{margin:0 auto; width:1200px; height:900px; text-align: center;}
 .nb1 > .pagenb > h1 {color:white; text-align: center; padding-top:20px;}
 
-#hostca{width:100%; height:900px; background-color: black;}
-.hcbox1{width:1200px; height:900px; margin:0 auto; background-color:white;}
+#hostca{width:100%; height: 1300px; background-color: black;}
+.hcbox1{width:1200px; height:1300px; margin:0 auto; background-color:white;}
+.inner{width:100%; height:auto;}
+
+
+#photobox2{width:100%; height:750px; text-align: center;}
+.ph2 {margin:0 auto; width:1200px; height:750px;  text-align: center;}
+.ph2 > .pageph2 {align-items: center; z-index: 6; }
+.ph2 > .pageph2 > .chh {padding:40px; color:black; z-index: 6; text-align: center; }
+.ph2 > .pageph2 > p {padding:40px;color:black; z-index: 6; text-align: center;}    
 
 #libox{width:100%; height:900px; background-color: #2079ab;}
 .libox1{width:1200px; height:900px; margin:0 auto; background-color:black;}

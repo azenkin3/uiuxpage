@@ -1,3 +1,6 @@
+h1{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+
 #whats{width:100%; height:800px; background-color:red;}
 .container{background-color:blue; width:1200px; height:800px; margin:0 auto; }
 .container > .page1 > .wih {color:white; text-align: center;}
@@ -5,3 +8,23 @@
 
 #textbox{width:100%; height:150px; background-color: blue;;}
 .tb1{background-color: black; width:1200px; height:150px; margin:0 auto;}
+.tb1 > .pagetb > h2 {text-align: center; color:white; padding-top:40px; }
+
+#server{width:100%; height:300px; background-color: #1a1a1a;}
+.sb1{width:1200px; height:300px; background-color: green; margin:0 auto;}
+
+#photobox{width:100%; height:400px; background-color: #1a1a1a;}
+.pb1{width:1200px; height:400px; margin:0 auto; color:aqua;}
+
+#option{width:100%; height:400px; background-color: rgb(211, 211, 47);}
+.ob1{width:1200px; height:400px; margin:0 auto; color:brown;}
+
+#hostbox{width:100%; height:150px; background-color:red;}
+.host1{background-color:black; width:1200px; height:150px; margin:0 auto; text-align: center; }
+.host1 > .pagehx > h1 {color:white; text-align: center; padding-top:15px;}
+.host1 > .pagehx > h3 {color:white; text-align: center; padding-top:15px;}
+
+
+#needs{width:100%; height:900px; background-color: cadetblue;}
+.nb1{margin:0 auto; width:1200px; height:900px; text-align: center;}
+.nb1 > .pagenb > h1 {color:white; text-align: center; padding-top:20px;}

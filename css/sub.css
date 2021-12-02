@@ -1,15 +1,15 @@
 h1{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 
-#whats{width:100%; height:800px; background-color:red;}
-.container{background-color:blue; width:1200px; height:800px; margin:0 auto; }
+#whats{width:100%; height:1150px; background-image:url(../img/bg-blur-3.jpg)}
+.container{ width:1200px; height:1150px; margin:0 auto; }
 .container > .page1 > .wih {color:white; text-align: center; padding-top:30px;}
 .container > .page1 > h3 { color:white; text-align: center; padding-top:10px; }
 
-table{float:left; width:370px; height:800px; color:white; z-index: 6; margin:10px 10px; align-items: center;  }
-td th{border:1px solid lightsalmon; color:white; z-index: 6;}
+table{float:left; width:370px; height:800px; color:white; z-index: 6; margin:100px 15px; align-items: center;  }
+td th{text-align:center; border:1px solid lightsalmon; color:white; z-index: 6;} 
 
-.sale{font-size:24px; text-align:center; width:170px; height:30px; background-image: url(../img/price_arrow.png);  padding: -30px 5px 20px    40px;}
+.sale{ font-size:24px; text-align:center; width:170px; height:30px; background-image: url(../img/price_arrow.png); float:left; }
 
 #textbox{width:100%; height:100px; background-color: #f55156;
 background-image: linear-gradient(to right,#bb397d,#f55156,#e6237c);}
@@ -20,7 +20,8 @@ float:right; background-color: white; border:1px solid #fff; position:relative; 
 font-style: bold; }
 .tb1 > .pagetb > h2 > button a {text-decoration: NONE;}
 
-
+#ho{text-align:center; font-size: 24px; padding-top:10px;}
+#ho > h5 { float:right; font-size: 24px;}
 #server{width:100%; height:200px; background-color: #1f1f1f;}
 
 .sb1{width:1200px; height:200px; background-color:#1f1f1f; margin:0 auto;}
@@ -31,14 +32,17 @@ font-style: bold; }
 .spage > .sb1 > ul > li  a {color:white; text-decoration: none;}
 .spage > .sb1 > ul > li:hover {background-color:#2079ab; border-radius: 4px;}
 
-#photobox{width:100%; height:400px; background-color: #1a1a1a;}
-.pb1{width:1200px; height:400px; margin:0 auto; color:aqua;}
+
+#photobox{width:100%; height:330px; background-color: #1a1a1a;}
+.pb1{width:1180px; height:330px; margin:0 auto; color:aqua; background-image:url(../img/bg_prd_foo_ban.png);
+background-position: cover;}
 
 #option{width:100%; height:400px; background-color: rgb(211, 211, 47);}
 .ob1{width:1200px; height:400px; margin:0 auto; color:brown;}
 
-#hostbox{width:100%; height:150px; background-color:red;}
-.host1{background-color:black; width:1200px; height:150px; margin:0 auto; text-align: center; }
+#hostbox{width:100%; height:150px; background-color: #f55156;
+    background-image: linear-gradient(to right,#bb397d,#f55156,#e6237c);}
+.host1{ width:1200px; height:150px; margin:0 auto; text-align: center; }
 .host1 > .pagehx > h1 {color:white; text-align: center; padding-top:15px;}
 .host1 > .pagehx > h3 {color:white; text-align: center; padding-top:15px;}
 
@@ -52,11 +56,12 @@ font-style: bold; }
 .inner{width:100%; height:auto;}
 
 
-#photobox2{width:100%; height:750px; text-align: center;}
-.ph2 {margin:0 auto; width:1200px; height:750px;  text-align: center;}
+#photobox2{width:100%; height:850px; text-align: center; background-image: url(../img/blur1.jpg);}
+.ph2 {margin:0 auto; width:1200px; height:850px;  text-align: center;}
 .ph2 > .pageph2 {align-items: center; z-index: 6; }
-.ph2 > .pageph2 > .chh {padding:40px; color:black; z-index: 6; text-align: center; }
-.ph2 > .pageph2 > p {padding:40px;color:black; z-index: 6; text-align: center;}    
+.ph2 > .pageph2 > h1 { padding:40px; color:white; z-index: 6; text-align: center; }
+.ph2 > .pageph2 > p {padding:20px; color:white; z-index: 6; text-align: center;}    
 
 #libox{width:100%; height:900px; background-color: #2079ab;}
 .libox1{width:1200px; height:900px; margin:0 auto; background-color:black;}
+

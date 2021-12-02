@@ -30,7 +30,7 @@ p{color:#90bcd5;}
 
 #wrap1 {width:1200px; height:170px;  margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
 .box1 {width:48%; height:150px;  display: flex; text-decoration-line: none; background-color:#1e1e1e; }
-#wrap1 > .box1 > i {color:white; font-size:80px; padding-top:30px; padding-left:15x; }
+#wrap1 > .box1 > i {color:white; font-size:70px; padding-top:30px; padding-left:30px; }
 #wrap1 > .box1 > i:hover{color:#2079ab}
 
 .text1 {width: 75%; padding-top:20px; padding-left: 10px; text-align: right; }
@@ -163,17 +163,17 @@ p{color:#90bcd5;}
 
 @media (max-width:1199px) and (min-width:946px){
     
-    #wrapa{width: 100%; height:auto; position:relative; left:2%;}   
+    #wrapa{width: 96%; height:auto; position:relative; left:2%;}   
     .boxa{width:50%; height:190px; margin:20px 0;}
     .photoa {width:35%; height:150px; background-position:center; background-size:cover; }
     .texta{padding-left: 10px;}
 
-    #wrapb{width: 100%; height:auto; position:relative; left:2%;}   
+    #wrapb{width: 96%; height:auto; position:relative; left:2%;}   
     .boxb{width:50%; height:150px; margin:20px 0;}
     .photob {width:35%; height:150px; background-position:center; background-size:cover; }
     .textb{padding-left: 10px;}
 
-    #wrapc{width: 100%; height:auto; position:relative; left:2%;}   
+    #wrapc{width: 96%; height:auto; position:relative; left:2%;}   
     .boxc{width:50%; height:150px; margin:20px 0px;}
     .photoc {width:35%; height:150px; background-position:center; background-size:cover; }
     .textc{padding-left: 10px;}
@@ -193,12 +193,12 @@ p{color:#90bcd5;}
     .i{width:35%; height:150px; padding:none; }
     .text3{padding-left: 10px; float:left;}
 
-    #wrap4{width: 100%; height:auto; position:relative; left:2%; }
+    #wrap4{width: 96%; height:auto; position:relative; left:2%; }
     .box4{width:50%; height:150px; margin:20px 0;}
     .photo4 {width:35%; height:150px; background-position:center; background-size:cover; }
     
 
-    #wrap5{width: 100%; height:auto; position:relative; left:2%;}  
+    #wrap5{width: 96%; height:auto; position:relative; left:2%;}  
     .box5{width:50%; height:150px; margin:20px 0;}
     .photo5 {width:35%; height:150px; background-position:center; background-size:cover; }
     .text4 , .text5{padding:-10px;}

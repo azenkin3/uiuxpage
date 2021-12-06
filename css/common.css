@@ -72,7 +72,7 @@
 .social {
         display: inline-block;
         margin: 0 auto;
-        padding-top: 20px;
+        
         text-align: center;
 }
 
@@ -81,10 +81,10 @@
 }
 
 .container7>.social>a {
-        padding-top: 40px;
+        padding-top: 20px;
         color: white;
         text-decoration-line: none;
-        font-size: 1.5em;
+        font-size: 1.2em;
 }
 
 .container7>.social>a:hover {

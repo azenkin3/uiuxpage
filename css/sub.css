@@ -22,7 +22,7 @@ font-style: bold; }
 
 #ho{text-align:center; font-size: 24px; padding-top:10px;}
 #ho > h5 { float:right; font-size: 24px;}
-#server{width:100%; height:200px; background-color: #1f1f1f;}
+#server{width:100%; height: 200px; background-color: #1f1f1f;}
 
 .sb1{width:1200px; height:200px; background-color:#1f1f1f; margin:0 auto;}
 .spage > .sb1 > h1 { text-align:left; color:white; padding-top:40px; font-size: 40px;}
@@ -33,12 +33,12 @@ font-style: bold; }
 .spage > .sb1 > ul > li:hover {background-color:#2079ab; border-radius: 4px;}
 
 
-#photobox{width:100%; height:330px; background-color: #1a1a1a;}
-.pb1{width:1180px; height:330px; margin:0 auto; color:aqua; background-image:url(../img/bg_prd_foo_ban.png);
-background-position: cover;}
+#photobox{width:100%; height:330px; background-image:url(../img/bg_prd_foo_ban.png); background-position: center; 
+background-size: cover;}
+.pb1{width:1180px; height:330px;  margin:0 auto; }
+.pb1 > .pagepb1 > h1 { padding:30px; color:white; z-index: 6; text-align: center; }
 
-#option{width:100%; height:400px; background-color: rgb(211, 211, 47);}
-.ob1{width:1200px; height:400px; margin:0 auto; color:brown;}
+
 
 #hostbox{width:100%; height:150px; background-color: #f55156;
     background-image: linear-gradient(to right,#bb397d,#f55156,#e6237c);}
@@ -51,20 +51,51 @@ background-position: cover;}
 .nb1{margin:0 auto; width:1200px; height:900px; text-align: center;}
 .nb1 > .pagenb > h1 {color:white; text-align: center; padding-top:20px;}
 
-#hostca{width:100%; height: 800px; background-color: black;}
-.hcbox1{width:1200px; height:800px; margin:0 auto; background-color:white;}
-.hcbox1 > .pagehc1 > h1 {color:black; text-align: center; padding-top:50px;}
-.hcbox1 > .pagehc1 > p {color:black; text-align: center; padding-top:30px;}
-#hctable{width:380px; height:600px; margin:10px 10px auto; }
-#hcth{width:300px; height:300px; color:black; font-size: 30px;} 
-#hcth > h3 {color:black;}
-#hctd > ul > li {list-style: none; text-decoration: none;}
+#hostca{width:100%; height: 950px; background-color: #1a1a1a;}
+.hcbox1{width:1200px; height:950px; margin:0 auto; background-color:#1a1a1a;}
+.hcbox1 > .pagehc1 > h1 {color:white; text-align: center; padding-top:50px;}
+.hcbox1 > .pagehc1 > p {color:white; text-align: center; padding-top:30px;}
+
+#hostca2{width:100%; height: 600px; background-color: #eee;}
+.hcbox2{width:1200px; height:600px; margin:0 auto; background-color:#eee;}
+.hcbox2 > .pagehc2 > h1 {color:black; text-align: center; padding-top:50px;}
+.hcbox2 > .pagehc2 > p {color:black; text-align: center; padding-top:30px;}
+.hcbox2 > .pagehc2 > article  {float:left; width:210px; height:210px; background-color: #2079ab; 
+    display:flex; margin:60px 10px; border-radius: 50%; position:relative; left:4% 
+; background-position: center; background-size: cover; background-image: url(../img/liimg1.PNG);}
+
+
+.hcbox2 > .pagehc2 > article > p {font-style:bold; color:white; font-size:20px; position:absolute; top:40%; left:23%;}
+    
+    
+
+#hctable{width:380px; height:600px; margin:40px 10px ; }
+#hcth{width:300px; height:300px; color:white; font-size: 30px;} 
+#hcth > i {font-size:50px; padding-bottom:15px;}
+#hcth > h3 {color:white;}
+#hctd > ul > li { background-image:url(../img/list_dot.png); list-style-type:none; text-decoration:  none; background-repeat: no-repeat; }
+#hctd > ul {padding: 85px 50px 45px; }
 
 #photobox2{width:100%; height:850px; text-align: center; background-image: url(../img/blur1.jpg);}
 .ph2 {margin:0 auto; width:1200px; height:850px;  text-align: center;}
 .ph2 > .pageph2 {align-items: center; z-index: 6; }
 .ph2 > .pageph2 > h1 { padding:40px; color:white; z-index: 6; text-align: center; }
 .ph2 > .pageph2 > p {padding:20px; color:white; z-index: 6; text-align: center;}    
+
+
+
+
+
+
+#option{width:100%; height:600px; background-image: url(../img/bg_graph.jpg);}
+.ob1{width:1200px; height:600px; margin:0 auto; }
+.ob1 > .pageob1 > h1 { padding:30px; color:white; z-index: 6; text-align: center; }
+.ob1 > .pageob1 > p {padding:20px; color:white; z-index: 6; text-align: center;}  
+
+
+
+
+
 
 #libox{width:100%; height:900px; background-color: #2079ab;}
 .libox1{width:1200px; height:900px; margin:0 auto; background-color:black;}

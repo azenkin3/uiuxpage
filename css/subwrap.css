@@ -3,29 +3,30 @@
 #wrap1 > .box1 > .photoba {color:white; font-size:80px; padding-top:30px; padding-left:15x; }
 #wrap1 > .box1 > i:hover{color:#2079ab}
 
-.text1 {width: 95%; padding-top:30px; padding-left: 10px; text-align: left; }
-h3{color:black;}
+.text1 {width: 80%; padding-top:30px; padding-left: 10px; text-align: left; }
+h3{color:white;}
 p{color:#90bcd5;}
 
 #wrap2 { width:1100px; height:140px;  margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
 .box2 { width:47%; height:140px;  display: flex; text-decoration-line: none;   margin:65px 0 0 0;}
 #wrap2 > .box2 > .photoba {background-color: #1a1a1a; font-size:80px; padding-top:30px; padding-left:25px; }
 #wrap2 > .box2 > i:hover{color:#2079ab}
-.text2 {width: 95%; padding-top:30px; padding-left:10px; text-align: left; }
-h3{color:white;}
+.text2 {width: 80%; padding-top:30px; padding-left:10px; text-align: left; }
+
 p{color:#90bcd5;}
 
 
-#wrap3 { width:1100px; height:140px;  margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
+#wrap3 {  width:1100px; height:140px;  margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
 .box3 { width:47%; height:140px;  display: flex; text-decoration-line: none; margin:85px 0; }
 #wrap3 > .box3 > .photoba {color:white; font-size:50px; padding-top:30px; padding-left:40px;  }
 
-.text3 {width: 95%; padding-top:30px; padding-left: 10px; text-align: left;}
+.text3 {width: 80%; padding-top:30px; padding-left: 10px; text-align: left;}
 
 
 #wraphost {width:1100px; height:140px;  margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-flow:row wrap; text-decoration-line: none;}
-.boxhost {width:47%; height:140px;  display: flex; text-decoration-line: none;  margin:50px 0;}
-#wraphost > .boxhost > .photohost {color:white; font-size:80px; padding-top:30px; padding-left:15x; }
-#wraphost > .boxhost > i:hover{color:#2079ab}
+.boxhost {width:47%; height:140px;  display: flex; text-decoration-line: none;  margin:10px 0;}
+#wraphost > .boxhost > i {color:#2079ab; font-size:50px; padding-top:50px; padding-left:15x; }
+#wraphost > .boxhost > i:hover{color:black;}
 
-.texthost {width: 95%; padding-top:30px; padding-left: 10px; text-align: left; }
+.texthost {width: 80%; padding-top:30px; padding-left: 30px; text-align: left; }
+.texthost > h3 {color:black;}

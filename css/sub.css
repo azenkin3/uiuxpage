@@ -1,101 +1,117 @@
-h1{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+*{font-family:'Noto Sans KR', sans-serif; }
 
 
-#whats{width:100%; height:1150px; background-image:url(../img/bg-blur-3.jpg)}
-.container{ width:1200px; height:1150px; margin:0 auto; }
-.container > .page1 > .wih {color:white; text-align: center; padding-top:30px;}
-.container > .page1 > h3 { color:white; text-align: center; padding-top:10px; }
 
-table{float:left; width:370px; height:800px; color:white; z-index: 6; margin:100px 15px; align-items: center;  }
-td th{text-align:center; border:1px solid lightsalmon; color:white; z-index: 6;} 
+/* 최상단 #server .spage */
+#server{width:100%; height: 200px; background-color: #1f1f1f;}
+.sb1{width:1200px; height:200px; background-color:#1f1f1f; margin:0 auto;}
+.spage > .sb1 > h1 { text-align:left; color:white; padding-top:40px; font-size: 40px;}
+.spage > .sb1 > h3 { text-align:left; color:white; padding-top:15px; font-size: 13px;}
+.spage > .sb1 > ul {float:right;  padding:8px 12px; }
+.spage > .sb1 > ul > li {float:left; padding:8px 12px; list-style: none; color:white;}
+.spage > .sb1 > ul > li  a {color:white; text-decoration: none;}
+.spage > .sb1 > ul > li:hover {background-color:#2079ab; border-radius: 4px;}
+/* 최상단 #server .spage */
 
-.sale{ font-size:24px; text-align:center; width:170px; height:30px; background-image: url(../img/price_arrow.png); float:left; }
 
+/* 상단 #textbox gradient banner */
 #textbox{width:100%; height:100px; background-color: #f55156;
 background-image: linear-gradient(to right,#bb397d,#f55156,#e6237c);}
 .tb1{ width:1200px; height:100px; margin:0 auto;}
 .tb1 > .pagetb > h2 {text-align: center; color:white; padding-top:30px; }
 .tb1 > .pagetb > h2 button {width:90px; height:30px; margin-left:20px; border-radius: 20px;
-float:right; background-color: white; border:1px solid #fff; position:relative; right:330px;
-font-style: bold; }
+float:right; background-color: white; border:1px solid #fff; position:relative; right:330px;}
 .tb1 > .pagetb > h2 > button a {text-decoration: NONE;}
-
 #ho{text-align:center; font-size: 24px; padding-top:10px;}
 #ho > h5 { float:right; font-size: 24px;}
-#server{width:100%; height: 200px; background-color: #1f1f1f;}
-
-.sb1{width:1200px; height:200px; background-color:#1f1f1f; margin:0 auto;}
-.spage > .sb1 > h1 { text-align:left; color:white; padding-top:40px; font-size: 40px;}
-.spage > .sb1 > h3 { text-align:left; color:white; padding-top:15px;}
-.spage > .sb1 > ul {float:right;  padding:8px 12px; }
-.spage > .sb1 > ul > li {float:left; padding:8px 12px; list-style: none; color:white;}
-.spage > .sb1 > ul > li  a {color:white; text-decoration: none;}
-.spage > .sb1 > ul > li:hover {background-color:#2079ab; border-radius: 4px;}
-
-
-#photobox{width:100%; height:330px; background-image:url(../img/bg_prd_foo_ban.png); background-position: center; 
-background-size: cover;}
-.pb1{width:1180px; height:330px;  margin:0 auto; }
-.pb1 > .pagepb1 > h1 { padding:30px; color:white; z-index: 6; text-align: center; }
+/* 상단 #textbox gradient banner */
 
 
 
-#hostbox{width:100%; height:150px; background-color: #f55156;
-    background-image: linear-gradient(to right,#bb397d,#f55156,#e6237c);}
-.host1{ width:1200px; height:150px; margin:0 auto; text-align: center; }
-.host1 > .pagehx > h1 {color:white; text-align: center; padding-top:15px;}
-.host1 > .pagehx > h3 {color:white; text-align: center; padding-top:15px;}
+/* 상단 #whats .page1 */
+#whats{width:100%; height:1200px; background-image:url(../img/kinxstory_koreaix_subbg.jpg); background-position: center; background-size:cover;}
+.container{ width:1200px; height:1200px; margin:0 auto; }
+.container > .page1 > h1 {color:white; text-align: center; padding-top:30px;}
+.container > .page1 > h3 { color:white; text-align: center; padding-top:10px; font-size: 14px; }
+table{float:left; width:370px; height:800px; color:white;  margin:100px 15px; align-items: center;  }
+td , th{text-align:center; color:white; font-size:13px;} 
+.sale{ font-size:24px; text-align:center; width:170px; height:30px; background-image: url(../img/price_arrow.png); float:left; }
+span{float:left; font-style: bold; width:30%; font-weight: 700; color:#2079ab;}
+td > #tpp {width:100%; text-align: center; margin:none;}
+/* 상단 #whats .page1 */
 
 
-#needs{width:100%; height:900px; background-color: cadetblue;}
-.nb1{margin:0 auto; width:1200px; height:900px; text-align: center;}
-.nb1 > .pagenb > h1 {color:white; text-align: center; padding-top:20px;}
 
-#hostca{width:100%; height: 950px; background-color: #1a1a1a;}
-.hcbox1{width:1200px; height:950px; margin:0 auto; background-color:#1a1a1a;}
-.hcbox1 > .pagehc1 > h1 {color:white; text-align: center; padding-top:50px;}
-.hcbox1 > .pagehc1 > p {color:white; text-align: center; padding-top:30px;}
-
-#hostca2{width:100%; height: 600px; background-color: #eee;}
-.hcbox2{width:1200px; height:600px; margin:0 auto; background-color:#eee;}
-.hcbox2 > .pagehc2 > h1 {color:black; text-align: center; padding-top:50px;}
-.hcbox2 > .pagehc2 > p {color:black; text-align: center; padding-top:30px;}
-.hcbox2 > .pagehc2 > article  {float:left; width:210px; height:210px; background-color: #2079ab; 
-    display:flex; margin:60px 10px; border-radius: 50%; position:relative; left:4% 
-; background-position: center; background-size: cover; background-image: url(../img/liimg1.PNG);}
-
-
-.hcbox2 > .pagehc2 > article > p {font-style:bold; color:white; font-size:20px; position:absolute; top:40%; left:23%;}
-    
-    
-
-#hctable{width:380px; height:600px; margin:40px 10px ; }
-#hcth{width:300px; height:300px; color:white; font-size: 30px;} 
-#hcth > i {font-size:50px; padding-bottom:15px;}
-#hcth > h3 {color:white;}
-#hctd > ul > li { background-image:url(../img/list_dot.png); list-style-type:none; text-decoration:  none; background-repeat: no-repeat; }
-#hctd > ul {padding: 85px 50px 45px; }
-
-#photobox2{width:100%; height:850px; text-align: center; background-image: url(../img/blur1.jpg);}
-.ph2 {margin:0 auto; width:1200px; height:850px;  text-align: center;}
+/* 상단 #photobox wrap box  */
+#photobox2{width:100%; height:900px; text-align: center; background-color:#1a1a1a;}
+.ph2 {margin:0 auto; width:1200px; height:900px;  text-align: center;}
 .ph2 > .pageph2 {align-items: center; z-index: 6; }
 .ph2 > .pageph2 > h1 { padding:40px; color:white; z-index: 6; text-align: center; }
 .ph2 > .pageph2 > p {padding:20px; color:white; z-index: 6; text-align: center;}    
+/* 상단 #photobox wrap box  */
 
 
 
+/* 상단 #photobox 3 table listbox */
+#hostca{width:100%; height: 1000px; background-image: url(../img/kinxstory_koreaix_subbg2.jpg);
+background-position: top center; background-attachment: fixed;}
+.hcbox1{width:1200px; height:1000px; margin:0 auto; }
+.hcbox1 > .pagehc1 > h1 {color:#1f1f1f; text-align: center; padding-top:50px;}
+.hcbox1 > .pagehc1 > p {color:#1f1f1f; text-align: center; padding-top:30px;}
+#hctable{width:380px; height:600px; margin:40px 10px ; border-radius: 30px;  }
+#hcth{width:300px; height:300px; color:white; font-size: 20px; border-radius: 30px;} 
+#hcth > i {color:#ff620c !important; font-size:50px; padding-bottom:15px;}
+#hctd{border-radius: 30px;}
+#hcth > h3 {color:#ff620c !important;}
+#hctd > ul > li {  color:#ff620c; list-style-type:none; text-decoration:  none; line-height: 40px; font-weight:1000; }
+#hctd > ul {padding: 85px 50px 45px; }
+/* 상단 #photobox 3 table listbox */
 
 
 
+/* 상단 #hostca2 service using */
+#hostca2{display:flex; width:100%; height: 700px; background-color: #1f1f1f; flex-direction: column;}
+.hcbox2{width:1200px; height:700px; margin:0 auto; background-color:#1f1f1f;}
+.hcbox2 > .pagehc2 > h1 {color:#fff; text-align: center; padding-top:50px; font-weight: 1000;}
+.hcbox2 > .pagehc2 > p {color:#fff; text-align: center; padding-top:30px;}
+.hcbox2 > .pagehc2 > article  {float:left; width:210px; height:210px; 
+    display:flex; margin:60px 10px; border-radius: 50%; position:relative; left:2% ; }
+.hcbox2 > .pagehc2 > .hcp2 img {border-radius: 50%; }    
+.hcbox2 > .pagehc2 > article > p {font-weight:1000; color:#fff; font-size:28px; position:absolute; top:40%; left:15%;}
+.hcbox2 > .pagehc2 > article > p:hover {color:#2079ab;}
+.hcbox2 > .pagehc2 > article > h3 {position:absolute; left:15%; bottom:0; padding-top:30px; }
+/* 상단 #hostca2 service using */
+
+.boxq > article {float:left; margin: -15px 17.5px; width:195px; height:40px; flex-direction: row wrap; position: relative; left:2%;}
+.boxq > article > h3  {color:white !important;}
+
+
+/* 상단 #hostca2 service using */
 #option{width:100%; height:600px; background-image: url(../img/bg_graph.jpg);}
 .ob1{width:1200px; height:600px; margin:0 auto; }
 .ob1 > .pageob1 > h1 { padding:30px; color:white; z-index: 6; text-align: center; }
 .ob1 > .pageob1 > p {padding:20px; color:white; z-index: 6; text-align: center;}  
+/* 상단 #hostca2 service using */
+
+
+
+/* 하단 #hostca2 faq */
+#libox{display:flex;width:100%; height:1000px; background-color: #3c4053; flex-direction: column;}
+#libox > h1 {font-size:50px; font-weight:1000;color:white; text-align: center; padding-top:30px;}
+
+/* 하단 #hostca2 faq*/
 
 
 
 
 
 
-#libox{width:100%; height:900px; background-color: #2079ab;}
-.libox1{width:1200px; height:900px; margin:0 auto; background-color:black;}
+/* 상단 #photobox call and email */
+#photobox{width:100%; height:330px;  background-color:#ddd;}
+.pb1{width:1180px; height:330px;  margin:0 auto; }
+.pb1 > .pagepb1 > h1     { padding:30px; color:#1a1a1a; text-align: center; }
+/* 상단 #photobox call and email */
+
+
+
+

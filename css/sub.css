@@ -23,7 +23,7 @@ background-image: linear-gradient(to right,#bb397d,#f55156,#e6237c);}
 float:right; background-color: white; border:1px solid #fff; position:relative; right:330px;}
 .tb1 > .pagetb > h2 > button a {text-decoration: NONE;}
 #ho{text-align:center; font-size: 24px; padding-top:10px;}
-#ho > h5 { float:right; font-size: 24px;}
+#ho > h5 { float:right; font-size: 20px; padding-right:15px;}
 /* 상단 #textbox gradient banner */
 
 
@@ -34,8 +34,8 @@ float:right; background-color: white; border:1px solid #fff; position:relative; 
 .container > .page1 > h1 {color:white; text-align: center; padding-top:30px;}
 .container > .page1 > h3 { color:white; text-align: center; padding-top:10px; font-size: 14px; }
 table{float:left; width:370px; height:800px; color:white;  margin:100px 15px; align-items: center;  }
-td , th{text-align:center; color:white; font-size:13px;} 
-.sale{ font-size:24px; text-align:center; width:170px; height:30px; background-image: url(../img/price_arrow.png); float:left; }
+td , th{text-align:center; color:white; font-size:13px; border-radius: 15px; margin:10px 0;} 
+.sale{ font-size:22px; text-align:center; width:130px; height:30px; background-image: url(../img/price_arrow.png); float:left; padding-left:15px; }
 span{float:left; font-style: bold; width:30%; font-weight: 700; color:#2079ab;}
 td > #tpp {width:100%; text-align: center; margin:none;}
 /* 상단 #whats .page1 */

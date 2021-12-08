@@ -55,7 +55,7 @@ p{color:#90bcd5;}
 
 @media (min-width:801px) and (max-width:1199px){
 #wrap1{width: 90%; height:auto; flex-direction:row wrap; margin:auto; ;}   
-.box1{width:100%; height:150px; margin:20px 0; background-color: #ff620c;}
+.box1{width:100%; height:150px; margin:20px 0;}
 .box1 > i {width:60%; height:150px; background-position:center; background-size:cover; }
 
 #wrap2{width: 90%; height:auto; flex-direction:row wrap;}   

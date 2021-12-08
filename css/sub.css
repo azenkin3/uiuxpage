@@ -3,8 +3,8 @@
 
 
 /* 최상단 #server .spage */
-#server{width:100%; height: 200px; background-color: #1f1f1f;}
-.sb1{width:1200px; height:200px; background-color:#1f1f1f; margin:0 auto;}
+#server{width:100%; height: 190px; background-color: #1f1f1f;}
+.sb1{width:1200px; height:190px; background-color:#1f1f1f; margin:0 auto;}
 .spage > .sb1 > h1 { text-align:left; color:white; padding-top:40px; font-size: 40px;}
 .spage > .sb1 > h3 { text-align:left; color:white; padding-top:15px; font-size: 13px;}
 .spage > .sb1 > ul { padding:8px 12px; display:flex; width:100%;  justify-content: flex-end;}
@@ -22,8 +22,8 @@ background-image: linear-gradient(to right,#bb397d,#f55156,#e6237c);}
 .tb1 > .pagetb > h2 button {width:90px; height:30px; margin-left:20px; border-radius: 20px;
 float:right; background-color: white; border:1px solid #fff; position:relative; right:330px;}
 .tb1 > .pagetb > h2 > button a {text-decoration: NONE;}
-#ho{text-align:center; font-size: 24px; padding-top:10px;}
-#ho > h5 { float:right; font-size: 20px; padding-right:15px;}
+
+
 /* 상단 #textbox gradient banner */
 
 
@@ -31,12 +31,13 @@ float:right; background-color: white; border:1px solid #fff; position:relative; 
 /* 상단 #whats .page1 */
 #whats{width:100%; height:1200px; background-image:url(../img/kinxstory_koreaix_subbg.jpg); background-position: center; background-size:cover; background-attachment: fixed; }
 .container{ width:1200px; height:1200px; margin:0 auto; }
-.container > .page1 > h1 {color:white; text-align: center; padding-top:30px;}
+.container > .page1 > h1 {color:white; text-align: center; padding-top:30px; font-size:50px;}
 .container > .page1 > h3 { color:white; text-align: center; padding-top:10px; font-size: 14px; }
 table{float:left; width:370px; height:800px; color:white;  margin:100px 15px; align-items: center;  }
 td , th{text-align:center; color:white; font-size:13px; border-radius: 15px; margin:10px 0;} 
-.sale{ font-size:22px; text-align:center; width:130px; height:30px; background-image: url(../img/price_arrow.png); float:left; padding-left:15px; }
-span{float:left; font-style: bold; width:30%; font-weight: 700; color:#2079ab;}
+th{font-size:30px;}
+h4{ font-weight:1000; text-align:center;   color:#ff620c; font-size:24px;}
+span{font-style: bold; width:30%; font-weight: 700; color:#2079ab;}
 td > #tpp {width:100%; text-align: center; margin:none;}
 /* 상단 #whats .page1 */
 
@@ -46,7 +47,7 @@ td > #tpp {width:100%; text-align: center; margin:none;}
 #photobox2{width:100%; height:900px; text-align: center; background-color:#1a1a1a;}
 .ph2 {margin:0 auto; width:1200px; height:900px;  text-align: center;}
 .ph2 > .pageph2 {align-items: center; z-index: 6; }
-.ph2 > .pageph2 > h1 { padding:40px; color:white; z-index: 6; text-align: center; }
+.ph2 > .pageph2 > h1 { padding:40px; color:white; z-index: 6; text-align: center; font-size:50px;}
 .ph2 > .pageph2 > p {padding:20px; color:white; z-index: 6; text-align: center;}    
 /* 상단 #photobox wrap box  */
 
@@ -56,15 +57,15 @@ td > #tpp {width:100%; text-align: center; margin:none;}
 #hostca{width:100%; height: 1000px; background-image: url(../img/kinxstory_koreaix_subbg2.jpg);
 background-position: top center; background-attachment: fixed;}
 .hcbox1{width:1200px; height:1000px; margin:0 auto; }
-.hcbox1 > .pagehc1 > h1 {color:#1f1f1f; text-align: center; padding-top:50px;}
-.hcbox1 > .pagehc1 > p {color:#1f1f1f; text-align: center; padding-top:30px;}
+.hcbox1 > .pagehc1 > h1 {color:#1f1f1f; text-align: center; padding-top:50px; font-size:50px;}
+.hcbox1 > .pagehc1 > p {color:#1f1f1f; text-align: center; padding-top:30px; font-size:15px;}
 #hctable{width:380px; height:600px; margin:40px 10px ; border-radius: 30px;  }
 #hcth{width:300px; height:300px; color:white; font-size: 20px; border-radius: 30px;} 
 #hcth > i {color:#ff620c !important; font-size:50px; padding-bottom:15px;}
 #hctd{border-radius: 30px;}
 #hcth > h3 {color:#ff620c !important;}
-#hctd > ul > li {  color:#ff620c; list-style-type:none; text-decoration:  none; line-height: 40px; font-weight:1000; }
-#hctd > ul {padding: 85px 50px 45px; }
+#hctd > ul > li {  color:#ff620c; list-style-type:none; text-decoration:  none; line-height: 20px; font-weight:1000; }
+#hctd > ul {padding: 65px 20px 30px; }
 /* 상단 #photobox 3 table listbox */
 
 
@@ -74,16 +75,14 @@ background-position: top center; background-attachment: fixed;}
 .hcbox2{width:1200px; height:700px; margin:0 auto; background-color:#1f1f1f;}
 .hcbox2 > .pagehc2 > h1 {color:#fff; text-align: center; padding-top:50px; font-weight: 1000;}
 .hcbox2 > .pagehc2 > p {color:#fff; text-align: center; padding-top:30px;}
-.hcbox2 > .pagehc2 > article  {float:left; width:210px; height:210px; 
-    display:flex; margin:60px 10px; border-radius: 50%; position:relative; left:2% ; }
-.hcbox2 > .pagehc2 > .hcp2 img {border-radius: 50%; }    
-.hcbox2 > .pagehc2 > article > p {font-weight:1000; color:#fff; font-size:20px; position:absolute; top:45%; left:23%;}
-.hcbox2 > .pagehc2 > article > p:hover {color:#2079ab;}
+#wrapser > .hcp2{float:left; width:210px; height:210px; 
+margin:60px 10px; border-radius: 50%; position:relative; left:2% ; }
+#wrapser >.hcp2 img {border-radius: 50%; }    
+#wrapser >.hcp2 > p {font-weight:1000; color:#fff; font-size:20px; position:absolute; top:45%; left:23%;}
+#wrapser >.hcp2 > p:hover {color:#2079ab;}
 .hcbox2 > .pagehc2 > article > h3 {position:absolute; left:15%; bottom:0; padding-top:30px; }
 /* 상단 #hostca2 service using */
 
-.boxq > article {float:left; margin: -15px 17.5px; width:195px; height:40px; flex-direction: row wrap; position: relative; left:2%;}
-.boxq > article > h3  {color:white !important;}
 
 
 /* 상단 #hostca2 service using */
@@ -113,12 +112,12 @@ background-position: top center; background-attachment: fixed;}
 /* 상단 #photobox call and email */
 
 
-@media screen and (max-width:701px) {
+@media screen and (max-width:800px) {
 
-    #server{width:100%; height:220px; }
-    .sb1{width:100%; height:220px;}
+    #server{width:100%; height:190px; }
+    .sb1{width:100%; height:190px;}
     .spage > .sb1 >  h1 { text-align:center;}
-    .spage > .sb1 >  h3 { text-align:center; line-height: 30px;}
+    .spage > .sb1 >  h3 { text-align:center; line-height: 30px; }
 
     #textbox{width:100%; height:100px;}
     .tb1{width:100%; height:100px;}
@@ -127,10 +126,94 @@ background-position: top center; background-attachment: fixed;}
 
 
     #whats{width:100%; height:2700px;}
-    .container{width:100%; height:2700px; flex-direction: row wrap; margin:0 auto ;}
-    
+    .container{display:flex; width:100%; height:2700px; flex-direction: column;  justify-content: center; margin:auto;}
+    table{margin:30px auto; border-spacing: 10px; border-style:none;}
+
+    #photobox2{width:100%; height:1600px;}
+    .ph2{width:100%; height:1600px;  margin:auto;}
+    .ph2 > .pageph2 > h1 {text-align: center;}
+    .ph2 > .pageph2 > p  {text-align: center; padding-bottom: 70px;}
+
+    #hostca{width:100%; height:2500px;}
+    .hcbox1{display:flex;  width:100%; height:2500px; flex-direction: column; margin:auto; justify-content: center;}
+    .hcbox1 > .hcbox1 >  h1 { text-align:center;}
+    .hcbox1 > .hcbox1 >  p { text-align:center; line-height: 30px;}
+   #hctable {margin:50px auto; width:100%;}
+
+
+
+   #hostca2{width:100%; height:1600px;}
+   .hcbox2{ width:100%; height: 1600px; flex-direction: column;}
+   .hcbox2 > .pagehc2 >  h1 { text-align:center; font-weight: 500;}
+   .hcbox2 > .pagehc2 >  h3 { text-align:center; line-height: 30px;}
+
+
+#photobox {width:100%;height:500px; }
+.pb1 {width:100%; height:500px; }
+.pb1 > .pagepb1 >  h1 { text-align:center;}
+
+#libox{width:100%; height: 1200px;}
+
+
+#footer{width:100%; height:200px;}
+        .container7{width:100%; height:200px;}
+        .social{font-size:1.5em;}
+
+
+
+
 
 }
 
+
+@media (max-width:1199px) and (min-width:801px){
+
+    #server{width:100%; height:190px; }
+    .sb1{width:100%; height:190px;}
+    .spage > .sb1 >  h1 { text-align:left; padding-left:30px;}
+    .spage > .sb1 >  h3 { text-align:left; line-height: 30px; padding-left:30px;}
+    #textbox{width:100%; height:100px;}
+    .tb1{width:100%; height:100px;}
+    .tb1 > .pagetb > h2 {text-align:center;}
+    .tb1 > .pagetb > h2 button {display:none;}
+
+
+    #whats{width:100%; height:900px;}
+    .container{width:100%; height:900px;   justify-content: center; margin:auto;}
+    table{width:33.3%; height:550px; margin:30px auto;}
+
+    #photobox2{width:100%; height:1600px;}
+    .ph2{width:100%; height:1600px;  margin:auto;}
+    .ph2 > .pageph2 > h1 {text-align: center;}
+    .ph2 > .pageph2 > p  {text-align: center; padding-bottom: 70px;}
+
+    #hostca{width:100%; height:900px;}
+    .hcbox1{display:flex;  width:100%; height:900px; flex-direction: column; margin:auto; justify-content: center;}
+    .hcbox1 > .hcbox1 >  h1 { text-align:center;}
+    .hcbox1 > .hcbox1 >  p { text-align:center; line-height: 30px;}
+   #hctable {margin:50px auto; width:33.3%; border-spacing: 10px; border-style:none;}
+
+
+
+   #hostca2{width:100%; height:1600px;}
+   .hcbox2{ width:100%; height: 1600px; }
+   .pagehc2 > .hcp2 {width:100%; height:auto;}
+   .hcbox2 > .pagehc2 >  h1 { text-align:center; font-weight: 500;}
+   .hcbox2 > .pagehc2 >  h3 { text-align:center; line-height: 30px;}
+   #wrapser{flex-direction: column;}
+
+
+#photobox {width:100%;height:500px; }
+.pb1 {width:100%; height:500px; }
+.pb1 > .pagepb1 >  h1 { text-align:center;}
+
+#libox{width:100%; height: 1200px;}
+
+
+#footer{width:100%; height:200px;}
+        .container7{width:100%; height:200px;}
+        .social{font-size:1.5em;}
+
+}
 
 

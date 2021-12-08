@@ -2,7 +2,7 @@
 
     #libox{font-family:'roboto',sans-serif; font-size: 10px; box-sizing: border-box;}
 
-    .libox1{width:100%; height:900px; background-color: #3c4053; display: flex; align-items: center; 
+    .libox1{width:100%; height:1050px; background-color: #3c4053; display: flex; align-items: center; 
         justify-content: center; padding:0 1.5em; margin:0 auto; max-width:1200px;}
  
     .accordion-item{background-color: #283042; border-radius: .4em; margin-bottom: 1rem; padding:1rem; box-shadow: .5rem 2px .5rem rbga(0,0,0,.1);}
@@ -10,11 +10,11 @@
     .accordion-link > i {color: #e7d5ff; padding: .5rem; }
     .accordion-link > .fa-minus {display:none;}
     .answer{max-height:0; overflow:hidden;  position:relative; background-color: #212838; transition:max-height 1000ms; }
-    .answer::before{content:""; position:absolute; width: .6rem; height:90%; background-color: #ff620c; top:50%; left:0; transform: translateY(-50%);}
-    .answer p {color:white; font-size:1.4rem; padding: 2rem; text-align: left;}
+    .answer::before{content:""; position:absolute; width: .6rem; height:100%; background-color: #ff620c; top:50%; left:0; transform: translateY(-50%);}
+    .answer p {color:white; font-size:1.3rem; padding: 1.5rem; text-align: left;}
 
 
 
-    .accordion-item:target .answer {max-height:20rem;}
+    .accordion-item:target .answer {max-height:10rem;}
     .accordion-item:target .accordion-link > .fa-plus {display:none;}
     .accordion-item:target .accordion-link > .fa-minus {display:block;}

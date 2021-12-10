@@ -90,7 +90,7 @@ margin:60px 10px; border-radius: 50%;  }
 /* 상단 #hostca2 service using */
 #option{width:100%; height:600px; background-image: url(../img/bg_graph.jpg);}
 .ob1{width:1200px; height:600px; margin:0 auto; }
-.ob1 > .pageob1 > h1 { padding:30px; color:white; z-index: 6; text-align: center; }
+.ob1 > .pageob1 > h1 { padding:30px; color:white; z-index: 6; text-align: center; font-size: 50px; }
 .ob1 > .pageob1 > p {padding:20px; color:white; z-index: 6; text-align: center;}  
 /* 상단 #hostca2 service using */
 
@@ -118,7 +118,7 @@ margin:60px 10px; border-radius: 50%;  }
 
     #server{width:100%; height:150px; }
     .sb1{width:100%; height:150px;}
-    .spage > .sb1 >  h1 { text-align:center;}
+    .spage > .sb1 >  h1 { text-align:center; }
     .spage > .sb1 >  h3 { text-align:center; line-height: 30px; display:none; }
 
     #textbox{width:100%; height:100px;}
@@ -130,42 +130,44 @@ margin:60px 10px; border-radius: 50%;  }
     #whats{width:100%; height:2700px;}
     .container{display:flex; width:100%; height:2700px; flex-direction: column;  justify-content: center; margin:auto;}
     table{margin:30px auto; border-spacing: 10px; border-style:none;}
+    .container > .page1 > h1 {font-size:30px;}
 
     #photobox2{width:100%; height:1600px;}
     .ph2{width:100%; height:1600px;  margin:auto;}
-    .ph2 > .pageph2 > h1 {text-align: center;}
+    .ph2 > .pageph2 > h1 {text-align: center; font-size:30px;}
     .ph2 > .pageph2 > p  {text-align: center; padding-bottom: 70px;}
 
     #hostca{width:100%; height:2200px;}
     .hcbox1{display:flex;  width:100%; height:2200px; flex-direction: column; margin:auto; justify-content: center;}
-    .hcbox1 > .hcbox1 >  h1 { text-align:center;}
-    .hcbox1 > .hcbox1 >  p { text-align:center; line-height: 30px;}
+     .hcbox1 > .pagehc1 > h1 { text-align:center; font-size:35px;}
+     .hcbox1 > .pagehc1 > p { text-align:center; line-height: 30px;}
    #hctable {width:80%; height:400px; margin:50px auto; float:none; }
 
 
 
-   #hostca2{width:100%; height:400px;}
-   .hcbox2{ width:100%; height: 400px; flex-direction: column;}
-   .hcbox2 > .pagehc2 >  h1 { text-align:center; font-weight: 500;}
-   .hcbox2 > .pagehc2 >  p { text-align:center; line-height: 30px; display:none;}
+   #hostca2{width:100%; height:350px;}
+   .hcbox2{ width:100%; height: 350px; flex-direction: column;}
+   .hcbox2 > .pagehc2 >  h1 { text-align:center; font-weight: 500; font-size:30px;}
+   .hcbox2 > .pagehc2 >  p { text-align:center; line-height: 30px; display:none; }
 
    #wrapser{width:100%; margin:auto; }
    .boxser{width:100%; flex-direction:row;  align-items: center; margin:auto;} 
-   .boxser > .hcp2 {width: 100%;  height:170px; padding-top:20px; }
-   .boxser > .hcp2 img{width: 100%; height:160px;}
+   .boxser > .hcp2 {width: 100%;  height:130px; padding-top:20px; }
+   .boxser > .hcp2 img{width: 100%; height:130px;}
    
 
 
 
 #photobox {width:100%;height:600px; }
-.pb1 {width:100%; height:600px; }
-.pb1 > .pagepb1 >  h1 { text-align:center;}
+.pb1 {width:100%; height:600px; font-size:30px;}
+.pb1 > .pagepb1 >  h1 { text-align:center; font-size: 30px;}
 
 #libox{width:100%; height: 1200px;}
+#libox > h1 {font-size:40px;  }
 
 
-#footer{width:100%; height:200px;}
-        .container7{width:100%; height:200px;}
+#footer{width:100%; height:150px;}
+        .container7{width:100%; height:150px;}
         .social{font-size:1.5em;}
         .social h4 {color:white;}
         .social h4:hover{color:#2079ab;}
@@ -183,7 +185,7 @@ margin:60px 10px; border-radius: 50%;  }
         #hostca2{width:100%; height: 800px;}
         .hcbox2{ width:100%; height: 800px; }
         .pagehc2 > .hcp2 {width:100%; height:auto;}
-        .hcbox2 > .pagehc2 >  h1 { text-align:center; font-weight: 500;}
+        .hcbox2 > .pagehc2 >  h1 { text-align:center; font-weight: 500; font-size:50px;} 
         .hcbox2 > .pagehc2 >  h3 { text-align:center; line-height: 30px;}
         #wrapser{width:100%; margin:auto; }
         .boxser{width:100%; flex-direction: row;  align-items: center; margin:auto;} 
@@ -192,7 +194,7 @@ margin:60px 10px; border-radius: 50%;  }
 
         #photobox {width:100%;height:600px; }
 .pb1 {width:100%; height:600px; }
-.pb1 > .pagepb1 >  h1 { text-align:center;}
+.pb1 > .pagepb1 >  h1 { text-align:center; font-size:50px;}
 
 #libox{width:100%; height: 1200px;}
 
@@ -208,7 +210,7 @@ margin:60px 10px; border-radius: 50%;  }
 
     #server{width:100%; height:190px; }
     .sb1{width:100%; height:190px;}
-    .spage > .sb1 >  h1 { text-align:left; padding-left:30px;}
+    .spage > .sb1 >  h1 { text-align:left; padding-left:30px; font-size:50px;}
     .spage > .sb1 >  h3 { text-align:left; line-height: 30px; padding-left:30px;}
     #textbox{width:100%; height:100px;}
     .tb1{width:100%; height:100px;}
@@ -219,15 +221,16 @@ margin:60px 10px; border-radius: 50%;  }
     #whats{width:100%; height:900px;}
     .container{width:100%; height:900px;   justify-content: center; margin:auto;}
     table{width:33.3%; height:550px; margin:30px auto;}
+    
 
     #photobox2{width:100%; height:1600px;}
     .ph2{width:100%; height:1600px;  margin:auto;}
-    .ph2 > .pageph2 > h1 {text-align: center;}
+    .ph2 > .pageph2 > h1 {text-align: center; font-size:50px;}
     .ph2 > .pageph2 > p  {text-align: center; padding-bottom: 70px;}
 
     #hostca{width:100%; height:900px;}
     .hcbox1{display:flex;  width:100%; height:900px; flex-direction: column; margin:auto; justify-content: center;}
-    .hcbox1 > .hcbox1 >  h1 { text-align:center;}
+    .hcbox1 > .hcbox1 >  h1 { text-align:center; font-size: 50px;}
     .hcbox1 > .hcbox1 >  p { text-align:center; line-height: 30px;}
    #hctable {margin:50px auto; width:33.3%; border-spacing: 10px; border-style:none;}
 
@@ -236,7 +239,7 @@ margin:60px 10px; border-radius: 50%;  }
    #hostca2{width:100%; height:500px;}
    .hcbox2{ width:100%; height: 500px; }
    .pagehc2 > .hcp2 {width:100%; height:auto;}
-   .hcbox2 > .pagehc2 >  h1 { text-align:center; font-weight: 500;}
+   .hcbox2 > .pagehc2 >  h1 { text-align:center; font-weight: 500; font-size:50px;}
    .hcbox2 > .pagehc2 >  h3 { text-align:center; line-height: 30px;}
    #wrapser{width:100%; margin:auto; }
    .boxser{width:100%; flex-direction: row;  align-items: center; margin:auto;} 
@@ -247,7 +250,7 @@ margin:60px 10px; border-radius: 50%;  }
 
 #photobox {width:100%;height:600px; }
 .pb1 {width:100%; height:600px; }
-.pb1 > .pagepb1 >  h1 { text-align:center;}
+.pb1 > .pagepb1 >  h1 { text-align:center; font-size:50px;}
 
 #libox{width:100%; height: 1200px;}
 

@@ -50,7 +50,7 @@ p{color:#90bcd5;}
 
 #wraphost{width:90%; height:auto; flex-direction: column; margin:auto;}
 .boxhost{width:100%; height:180px; margin:auto;}
-.texthost{width:100%;}
+.texthost{width:100%; font-size:20px;}
 }
 
 @media (min-width:801px) and (max-width:1015px){

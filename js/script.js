@@ -9,7 +9,7 @@
        
        /* whats , 테이블 설정 600px 이상 */
         if (ws > 400) {
-            $('article').css("transform", "translateX(0px)").css("opacity", "1")
+            $('article').css("transform", "translateX(0px)").css("animation-iteration-count", "30")
         }
 
         if (ws > 1000) {

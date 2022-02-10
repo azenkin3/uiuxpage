@@ -1,7 +1,9 @@
 
-        .at1{transform:translate(-500px); transition: all 3s; opacity: 0; }
-        .at2{transform:translate(-500px); transition: all 3s; opacity: 0; }
-        .at3{transform:translate(-500px); transition: all 3s; opacity: 0; }
+        .at1{transform:translateX(-300px); transition: all 3s; opacity: 0; }
+        .at2{transform:translateX(-300px); transition: all 3s; opacity: 0; }
+        .at3{transform:translateX(-300px); transition: all 3s; opacity: 0; }
+
+
         table{transform:translate(300px); transition: all 3s; opacity: 0; }
         .texta {transform:translateY(100px); transition: all 3s; opacity: 0;}
         .photoa {transform:translateY(100px); transition: all 3s; opacity: 0;}

@@ -1,7 +1,4 @@
-        
 
-      
-  
         $(window).scroll(function () {
         var ws = $(this).scrollTop();
         if (matchMedia("screen and (min-width: 800px)").matches) {
@@ -9,7 +6,7 @@
        
        /* whats , 테이블 설정 600px 이상 */
         if (ws > 400) {
-            $('article').css("transform", "translateX(0px)").css("animation-iteration-count", "30")
+            $('article').css("transform", "translateX(0px)").css("opacity","1")
         }
 
         if (ws > 1000) {

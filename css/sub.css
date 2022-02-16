@@ -36,7 +36,7 @@ float:right; background-color: white; border:1px solid #fff; position:relative; 
 table{float:left; width:370px; height:800px; color:white;  margin:100px 15px; align-items: center;  }
 td , th{text-align:center; color:white; font-size:13px; border-radius: 15px; margin:10px 0;} 
 th{font-size:30px;}
-h4{ font-weight:1000; text-align:center;   color:#ff620c; font-size:24px;}
+h4{ font-weight:1000; text-align:center;   color:white; font-size:24px;}
 span{font-style: bold; width:30%; font-weight: 700; color:#2079ab;}
 td > #tpp {width:100%; text-align: center; margin:none;}
 /* 상단 #whats .page1 */
